@@ -21,7 +21,18 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=for-the-badge)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge)
+![Bash](https://img.shields.io/badge/-Bash-121011?logo=gnu-bash&logoColor=white&style=for-the-badge)
+![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?logo=powershell&logoColor=white&style=for-the-badge)
 
+### 🧰 Developer Tools
+![Visual Studio Code](https://img.shields.io/badge/-VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge)
+
+### 🛡️ Cybersecurity Tools
+![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?logo=wireshark&logoColor=white&style=for-the-badge)
+![Nmap](https://img.shields.io/badge/-Nmap-004A99?style=for-the-badge&logo=nmap&logoColor=white)
+![Metasploit](https://img.shields.io/badge/-Metasploit-507C89?style=for-the-badge)
+![Burp Suite](https://img.shields.io/badge/-Burp--Suite-FF6F00?style=for-the-badge)
 
 ## 📊 GitHub Stats
 
@@ -29,10 +40,10 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Ahmer-kun&show_icons=true&theme=radical" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmer-kun&theme=radical" width="48%" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical" width="50%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmer-kun&layout=compact&theme=radical" width="50%" />
 </div>
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](hhttps://www.linkedin.com/in/muhammad-ahmer-b88485283)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge)](https://twitter.com/yourhandle)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-121212?style=for-the-badge)](https://yourwebsite.com)
 <!---
