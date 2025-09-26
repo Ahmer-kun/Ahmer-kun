@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&amp;color=cyan&amp;size=25&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=100&amp;lines=Assalamu+O+Alaikum+Warahmatullah..♥++;Undergraduate,;Computer+Science+Student,;IT+Support+Specialist,;Cybersecurity+Analyst/Enthusiast,;Web Developer,;Love+to+learn+new+stuffs..&lt;3"></a>
 
-- 👋 Hi, I’m @Ahmer, an aspiring Cybersecurity Specialist with a passion for Web Development, IT and learning new tech!
+- 👋 I'm an aspiring Cybersecurity Specialist with a passion for Web Development, IT and learning new tech!
 - 🌱 I’m currently deepening my knowledge in Python and machine learning, alongside exploring cybersecurity in depth.
 - 💻 I'm working on personal projects related to **Web Security** and **Ethical Hacking**, while expanding my skills in Front-End and Back-End development.
 - 🚀 I'm open to collaboration and discussions on **Web Development**, **cybersecurity**.
