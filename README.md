@@ -58,18 +58,6 @@
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge)](https://twitter.com/yourhandle)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-121212?style=for-the-badge)]([https://yourwebsite.com](https://ahmer-kun.github.io/myportfolio/))-->
 
-<a href="https://www.linkedin.com/in/muhammad-ahmer-b88485283" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" />
-</a>
-
-<a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge" />
-</a>
-
-<a href="https://ahmer-kun.github.io/myportfolio/" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/-Portfolio-121212?style=for-the-badge" />
-</a>
-
 
 <!---
 Ahmer-kun/Ahmer-kun is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
