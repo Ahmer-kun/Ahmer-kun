@@ -67,7 +67,7 @@
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge" />
   </a>
 
-  <a href="https://ahmer-kun.github.io/myportfolio/" target="_blank" rel="noopener noreferrer">
+  <a href="https://asquardev.vercel.app/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Portfolio-121212?logo=github&logoColor=white&style=for-the-badge" />
   </a>
 </p>
