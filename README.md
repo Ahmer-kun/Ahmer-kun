@@ -48,14 +48,10 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <!-- Main Stats - Using alternative service -->
+  <!-- All from same reliable source -->
   <img src="https://github-readme-stats.vercel.app/api?username=Ahmer-kun&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" />
-  
-  <!-- Top Languages - This one works fine -->
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ahmer-kun&layout=compact&theme=radical&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmer-kun&layout=compact&theme=radical&hide_border=true" width="48%" />
   <br/>
-  
-  <!-- Streak Stats -->
   <img src="https://streak-stats.demolab.com/?user=Ahmer-kun&theme=radical&hide_border=true" width="48%" />
 </div>
 
