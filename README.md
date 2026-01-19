@@ -48,11 +48,17 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ahmer-kun&show_icons=true&theme=radical&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmer-kun&layout=compact&theme=radical&hide_border=true" width="48%" />
+  <!-- Main Stats - Using alternative service -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Ahmer-kun&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" />
+  
+  <!-- Top Languages - This one works fine -->
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ahmer-kun&layout=compact&theme=radical&hide_border=true" width="48%" />
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmer-kun&theme=radical&hide_border=true" width="48%" />
+  
+  <!-- Streak Stats -->
+  <img src="https://streak-stats.demolab.com/?user=Ahmer-kun&theme=radical&hide_border=true" width="48%" />
 </div>
+
 <!--
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/muhammad-ahmer-b88485283)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge)](https://twitter.com/yourhandle)
