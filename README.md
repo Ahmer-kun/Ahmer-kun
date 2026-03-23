@@ -1,687 +1,326 @@
+<div align="center">
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap');
-
-  :root {
-    --bg: #020c18;
-    --panel: #040f1e;
-    --border: #0e2a44;
-    --accent: #00b4d8;
-    --accent2: #0077a8;
-    --dim: #1a3a52;
-    --text: #c8e8f5;
-    --muted: #4a7a96;
-    --bright: #e0f4ff;
-    --red: #ff3c5a;
-    --green: #00e5a0;
-    --gold: #f0a500;
-  }
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-
-  body, .wrap {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 13px;
-    line-height: 1.6;
-  }
-
-  .wrap {
-    padding: 20px 16px 40px;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  /* SCAN LINE OVERLAY */
-  .scanlines {
-    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,180,216,0.012) 2px, rgba(0,180,216,0.012) 4px);
-    pointer-events: none; z-index: 999;
-  }
-
-  /* HEADER */
-  .hdr {
-    border: 1px solid var(--border);
-    border-top: 3px solid var(--accent);
-    background: var(--panel);
-    padding: 24px 28px 20px;
-    position: relative;
-    margin-bottom: 2px;
-  }
-
-  .hdr::before {
-    content: 'IDENTITY_MANIFEST.exe';
-    position: absolute; top: -1px; right: 20px;
-    background: var(--accent); color: #000;
-    font-size: 10px; font-weight: 700;
-    padding: 2px 10px; letter-spacing: 2px;
-    font-family: 'Share Tech Mono', monospace;
-  }
-
-  .hdr-grid {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 24px;
-    align-items: start;
-  }
-
-  .avatar {
-    width: 72px; height: 72px;
-    border: 2px solid var(--accent);
-    border-radius: 4px;
-    background: var(--dim);
-    display: flex; align-items: center; justify-content: center;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 22px; font-weight: 900;
-    color: var(--accent);
-    position: relative;
-    flex-shrink: 0;
-  }
-
-  .avatar::after {
-    content: '';
-    position: absolute; bottom: -6px; left: 50%; transform: translateX(-50%);
-    width: 2px; height: 6px;
-    background: var(--accent);
-  }
-
-  .name-block {}
-
-  .codename {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 26px; font-weight: 900;
-    color: var(--bright);
-    letter-spacing: 3px;
-    line-height: 1;
-    margin-bottom: 4px;
-  }
-
-  .subtitle {
-    color: var(--accent);
-    font-size: 11px;
-    letter-spacing: 2px;
-    margin-bottom: 12px;
-  }
-
-  .meta-row {
-    display: flex; gap: 16px; flex-wrap: wrap;
-  }
-
-  .meta-item {
-    font-size: 11px;
-    color: var(--muted);
-    letter-spacing: 1px;
-  }
-
-  .meta-item span {
-    color: var(--text);
-  }
-
-  .status-block {
-    display: flex; flex-direction: column; gap: 6px; align-items: flex-end;
-  }
-
-  .status-pill {
-    display: flex; align-items: center; gap: 6px;
-    border: 1px solid var(--border);
-    padding: 4px 10px;
-    font-size: 10px; letter-spacing: 2px;
-    color: var(--muted);
-  }
-
-  .dot {
-    width: 6px; height: 6px; border-radius: 50%;
-    background: var(--green);
-    animation: blink 1.8s infinite;
-  }
-
-  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
-
-  .typing-line {
-    margin-top: 16px;
-    font-size: 12px; color: var(--muted);
-    border-top: 1px solid var(--border);
-    padding-top: 12px;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-
-  .cursor {
-    display: inline-block;
-    width: 8px; height: 13px;
-    background: var(--accent);
-    animation: blink 0.8s infinite;
-    vertical-align: middle;
-    margin-left: 2px;
-  }
-
-  /* GRID LAYOUT */
-  .main-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2px;
-    margin-bottom: 2px;
-  }
-
-  .panel {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    padding: 18px 20px;
-    position: relative;
-  }
-
-  .panel-title {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 9px;
-    letter-spacing: 3px;
-    color: var(--accent);
-    margin-bottom: 14px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--border);
-    display: flex; align-items: center; gap: 8px;
-  }
-
-  .panel-title::before {
-    content: '//';
-    color: var(--dim);
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 11px;
-  }
-
-  /* STACK ROWS */
-  .stack-row {
-    display: flex; align-items: center;
-    justify-content: space-between;
-    padding: 5px 0;
-    border-bottom: 1px solid rgba(14,42,68,0.5);
-    font-size: 12px;
-  }
-
-  .stack-row:last-child { border-bottom: none; }
-
-  .stack-label { color: var(--muted); }
-  .stack-val { color: var(--text); text-align: right; font-size: 11px; }
-
-  .tag {
-    display: inline-block;
-    padding: 1px 7px;
-    border: 1px solid;
-    font-size: 10px;
-    letter-spacing: 1px;
-    margin: 2px;
-  }
-
-  .tag-blue { border-color: var(--accent2); color: var(--accent); }
-  .tag-green { border-color: #00664a; color: var(--green); }
-  .tag-gold { border-color: #8a5c00; color: var(--gold); }
-  .tag-red { border-color: #7a1020; color: var(--red); }
-
-  /* PROJECTS */
-  .proj-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2px;
-    margin-bottom: 2px;
-  }
-
-  .proj-card {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    padding: 16px 18px;
-    position: relative;
-    cursor: pointer;
-    transition: border-color 0.2s;
-  }
-
-  .proj-card:hover { border-color: var(--accent); }
-
-  .proj-card::before {
-    content: attr(data-num);
-    position: absolute; top: 10px; right: 14px;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 20px; font-weight: 900;
-    color: var(--dim);
-    line-height: 1;
-  }
-
-  .proj-name {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 11px; font-weight: 700;
-    color: var(--bright);
-    letter-spacing: 1px;
-    margin-bottom: 4px;
-  }
-
-  .proj-desc {
-    font-size: 11px; color: var(--muted);
-    margin-bottom: 10px;
-    line-height: 1.5;
-  }
-
-  .proj-bar {
-    height: 2px;
-    background: var(--border);
-    margin-bottom: 8px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .proj-bar-fill {
-    height: 100%;
-    background: var(--accent);
-    position: relative;
-  }
-
-  .proj-bar-fill::after {
-    content: '';
-    position: absolute; right: 0; top: 0;
-    width: 4px; height: 100%;
-    background: var(--bright);
-    animation: scan 2s linear infinite;
-  }
-
-  @keyframes scan { 0%{opacity:1} 50%{opacity:0} 100%{opacity:1} }
-
-  .proj-stack {
-    font-size: 10px; color: var(--accent2);
-    letter-spacing: 1px;
-  }
-
-  /* CERTS */
-  .cert-row {
-    display: flex; align-items: center;
-    gap: 12px;
-    padding: 9px 0;
-    border-bottom: 1px solid rgba(14,42,68,0.6);
-  }
-
-  .cert-row:last-child { border-bottom: none; }
-
-  .cert-level {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 8px; font-weight: 700;
-    color: var(--gold);
-    letter-spacing: 1px;
-    width: 32px;
-    flex-shrink: 0;
-    text-align: center;
-  }
-
-  .cert-name { color: var(--bright); font-size: 12px; flex: 1; }
-  .cert-issuer { color: var(--muted); font-size: 10px; letter-spacing: 1px; }
-
-  .verified-badge {
-    background: rgba(0,229,160,0.08);
-    border: 1px solid rgba(0,229,160,0.25);
-    color: var(--green);
-    font-size: 9px;
-    padding: 2px 6px;
-    letter-spacing: 1px;
-    flex-shrink: 0;
-  }
-
-  /* STATS */
-  .stat-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2px;
-    margin-bottom: 2px;
-  }
-
-  .stat-card {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    padding: 14px 16px;
-    text-align: center;
-  }
-
-  .stat-num {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 22px; font-weight: 900;
-    color: var(--accent);
-    line-height: 1;
-    margin-bottom: 4px;
-  }
-
-  .stat-label {
-    font-size: 9px; color: var(--muted);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-
-  /* GOALS */
-  .goal-row {
-    display: flex; gap: 10px;
-    align-items: flex-start;
-    padding: 6px 0;
-    font-size: 12px;
-    color: var(--text);
-    border-bottom: 1px solid rgba(14,42,68,0.5);
-  }
-
-  .goal-row:last-child { border-bottom: none; }
-
-  .goal-icon { color: var(--accent); flex-shrink: 0; width: 16px; }
-
-  /* FOOTER */
-  .footer-panel {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-bottom: 3px solid var(--accent);
-    padding: 18px 20px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .connect-links {
-    display: flex; gap: 8px; flex-wrap: wrap;
-  }
-
-  .link-btn {
-    display: inline-flex; align-items: center; gap: 6px;
-    border: 1px solid var(--border);
-    padding: 7px 14px;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 11px;
-    color: var(--muted);
-    text-decoration: none;
-    letter-spacing: 1px;
-    transition: all 0.2s;
-    cursor: pointer;
-  }
-
-  .link-btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-    background: rgba(0,180,216,0.05);
-  }
-
-  .terminal-line {
-    font-size: 11px;
-    color: var(--muted);
-    line-height: 2;
-  }
-
-  .terminal-line .cmd { color: var(--accent); }
-  .terminal-line .out { color: var(--green); }
-
-  /* CORNER MARKS */
-  .corner-tl, .corner-br {
-    position: absolute;
-    width: 10px; height: 10px;
-  }
-
-  .corner-tl { top: -1px; left: -1px; border-top: 2px solid var(--accent); border-left: 2px solid var(--accent); }
-  .corner-br { bottom: -1px; right: -1px; border-bottom: 2px solid var(--accent); border-right: 2px solid var(--accent); }
-
-  /* FULL WIDTH PANELS */
-  .full { grid-column: 1 / -1; }
-
-  @media (max-width: 600px) {
-    .hdr-grid { grid-template-columns: auto 1fr; }
-    .status-block { display: none; }
-    .main-grid, .proj-grid, .stat-grid { grid-template-columns: 1fr; }
-  }
-</style>
-
-<div class="scanlines"></div>
-
-<div class="wrap">
-
-  <!-- HEADER -->
-  <div class="hdr">
-    <div class="corner-tl"></div>
-    <div class="corner-br"></div>
-    <div class="hdr-grid">
-      <div class="avatar">AA</div>
-      <div class="name-block">
-        <div class="codename">AHMER AMIR</div>
-        <div class="subtitle">FULL STACK DEVELOPER &nbsp;·&nbsp; CYBERSECURITY ANALYST &nbsp;·&nbsp; CS UNDERGRADUATE</div>
-        <div class="meta-row">
-          <div class="meta-item">BASE: <span>KARACHI, PK 🇵🇰</span></div>
-          <div class="meta-item">CLASS: <span>UNDERGRADUATE</span></div>
-          <div class="meta-item">YEAR: <span>2026</span></div>
-        </div>
-      </div>
-      <div class="status-block">
-        <div class="status-pill"><div class="dot"></div>SYSTEM ONLINE</div>
-        <div class="status-pill" style="color:var(--gold); border-color:var(--dim);">⬡ OPEN TO HIRE</div>
-        <div class="status-pill" style="color:var(--green); border-color:var(--dim);">✓ CERTS VERIFIED</div>
-      </div>
-    </div>
-    <div class="typing-line">
-      &gt; directive: <span style="color:var(--bright)">"Build it. Understand it. Break it. Secure it."</span>
-      <div class="cursor"></div>
-    </div>
-  </div>
-
-  <!-- STATS ROW -->
-  <div class="stat-grid">
-    <div class="stat-card">
-      <div class="stat-num">4</div>
-      <div class="stat-label">Certifications</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">266</div>
-      <div class="stat-label">Contributions</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">2020</div>
-      <div class="stat-label">Active Since</div>
-    </div>
-  </div>
-
-  <!-- MAIN 2-COL -->
-  <div class="main-grid">
-
-    <!-- STACK -->
-    <div class="panel">
-      <div class="panel-title">TECHNOLOGY STACK</div>
-      <div class="stack-row">
-        <span class="stack-label">FRONTEND</span>
-        <span class="stack-val">
-          <span class="tag tag-blue">REACT</span>
-          <span class="tag tag-blue">JS</span>
-          <span class="tag tag-blue">HTML5</span>
-          <span class="tag tag-blue">CSS3</span>
-        </span>
-      </div>
-      <div class="stack-row">
-        <span class="stack-label">BACKEND</span>
-        <span class="stack-val">
-          <span class="tag tag-green">NODE.JS</span>
-          <span class="tag tag-green">EXPRESS</span>
-          <span class="tag tag-green">MONGODB</span>
-        </span>
-      </div>
-      <div class="stack-row">
-        <span class="stack-label">SECURITY</span>
-        <span class="stack-val">
-          <span class="tag tag-red">NMAP</span>
-          <span class="tag tag-red">METASPLOIT</span>
-          <span class="tag tag-red">BURP</span>
-        </span>
-      </div>
-      <div class="stack-row">
-        <span class="stack-label">SCRIPTING</span>
-        <span class="stack-val">
-          <span class="tag tag-gold">PYTHON</span>
-          <span class="tag tag-gold">BASH</span>
-          <span class="tag tag-gold">POWERSHELL</span>
-        </span>
-      </div>
-      <div class="stack-row">
-        <span class="stack-label">WEB3</span>
-        <span class="stack-val">
-          <span class="tag tag-blue">SOLIDITY</span>
-          <span class="tag tag-blue">ETHEREUM</span>
-        </span>
-      </div>
-      <div class="stack-row">
-        <span class="stack-label">TOOLS</span>
-        <span class="stack-val">
-          <span class="tag tag-green">GIT</span>
-          <span class="tag tag-green">LINUX</span>
-          <span class="tag tag-green">VSCODE</span>
-          <span class="tag tag-green">KALI</span>
-        </span>
-      </div>
-    </div>
-
-    <!-- OBJECTIVE MATRIX -->
-    <div class="panel">
-      <div class="panel-title">OBJECTIVE MATRIX — 2026</div>
-      <div class="goal-row">
-        <span class="goal-icon">▸</span>
-        Master backend architecture & system design
-      </div>
-      <div class="goal-row">
-        <span class="goal-icon">▸</span>
-        Advance penetration testing — CTFs & home lab
-      </div>
-      <div class="goal-row">
-        <span class="goal-icon">▸</span>
-        Explore machine learning fundamentals
-      </div>
-      <div class="goal-row">
-        <span class="goal-icon">▸</span>
-        AWS cloud & infrastructure basics
-      </div>
-      <div class="goal-row">
-        <span class="goal-icon">▸</span>
-        Ship 3 production-grade projects
-      </div>
-      <div class="goal-row">
-        <span class="goal-icon">▸</span>
-        Contribute to open source security tooling
-      </div>
-
-      <div style="margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--border);">
-        <div style="font-size: 10px; color: var(--muted); letter-spacing: 1px; margin-bottom: 6px;">OPEN TO</div>
-        <span class="tag tag-blue">WEB DEV</span>
-        <span class="tag tag-red">CYBERSECURITY</span>
-        <span class="tag tag-gold">IT SUPPORT</span>
-        <span class="tag tag-green">COLLABS</span>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- PROJECTS -->
-  <div class="proj-grid">
-    <div class="proj-card" data-num="01">
-      <div class="proj-name">PORTFOLIO PRIME</div>
-      <div class="proj-desc">Dark, animated personal portfolio. Built to feel like a product, not a template.</div>
-      <div class="proj-bar"><div class="proj-bar-fill" style="width:100%"></div></div>
-      <div class="proj-stack">HTML &nbsp;·&nbsp; CSS &nbsp;·&nbsp; JAVASCRIPT &nbsp;·&nbsp; STATUS: LIVE</div>
-    </div>
-    <div class="proj-card" data-num="02">
-      <div class="proj-name">COMMERCE NEXUS</div>
-      <div class="proj-desc">Full stack e-commerce. JWT auth, cart system, product pipeline, order tracking.</div>
-      <div class="proj-bar"><div class="proj-bar-fill" style="width:100%"></div></div>
-      <div class="proj-stack">REACT &nbsp;·&nbsp; NODE &nbsp;·&nbsp; MONGODB &nbsp;·&nbsp; STATUS: LIVE</div>
-    </div>
-    <div class="proj-card" data-num="03">
-      <div class="proj-name">GHOST SCANNER [SEC]</div>
-      <div class="proj-desc">CLI recon tool — host discovery, port scanning, vulnerability enumeration + reports.</div>
-      <div class="proj-bar"><div class="proj-bar-fill" style="width:82%"></div></div>
-      <div class="proj-stack">PYTHON &nbsp;·&nbsp; NMAP &nbsp;·&nbsp; BASH &nbsp;·&nbsp; STATUS: v0.8 BETA</div>
-    </div>
-    <div class="proj-card" data-num="04">
-      <div class="proj-name">SIGNAL — CHAT PROTOCOL</div>
-      <div class="proj-desc">Real-time multi-room messaging. WebSocket architecture + live user presence.</div>
-      <div class="proj-bar"><div class="proj-bar-fill" style="width:100%"></div></div>
-      <div class="proj-stack">NODE &nbsp;·&nbsp; SOCKET.IO &nbsp;·&nbsp; EXPRESS &nbsp;·&nbsp; STATUS: LIVE</div>
-    </div>
-  </div>
-
-  <!-- CERTS FULL WIDTH -->
-  <div class="panel" style="margin-bottom:2px; position:relative;">
-    <div class="corner-tl"></div>
-    <div class="panel-title">CLEARANCE REGISTRY — VERIFIED CREDENTIALS</div>
-    <div class="cert-row">
-      <div class="cert-level">★★★★</div>
-      <div>
-        <div class="cert-name">CC — Certified in Cybersecurity (SCCP)</div>
-        <div class="cert-issuer">ISC²</div>
-      </div>
-      <div class="verified-badge">VERIFIED</div>
-    </div>
-    <div class="cert-row">
-      <div class="cert-level">★★★★</div>
-      <div>
-        <div class="cert-name">Cybersecurity Analyst Professional Certificate</div>
-        <div class="cert-issuer">IBM</div>
-      </div>
-      <div class="verified-badge">VERIFIED</div>
-    </div>
-    <div class="cert-row">
-      <div class="cert-level">★★★★</div>
-      <div>
-        <div class="cert-name">Full Stack JavaScript Developer</div>
-        <div class="cert-issuer">IBM</div>
-      </div>
-      <div class="verified-badge">VERIFIED</div>
-    </div>
-    <div class="cert-row">
-      <div class="cert-level">★★★</div>
-      <div>
-        <div class="cert-name">IT Support Specialist</div>
-        <div class="cert-issuer">GOOGLE</div>
-      </div>
-      <div class="verified-badge">VERIFIED</div>
-    </div>
-  </div>
-
-  <!-- GITHUB STATS FULL WIDTH -->
-  <div class="panel" style="margin-bottom:2px;">
-    <div class="panel-title">GITHUB TELEMETRY</div>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; flex-wrap:wrap;">
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahmer-kun&show_icons=true&hide_border=true&bg_color=040f1e&title_color=00b4d8&icon_color=00b4d8&text_color=c8e8f5&ring_color=0e2a44" style="width:100%; border:1px solid var(--border);" loading="lazy"/>
-      <img src="https://streak-stats.demolab.com/?user=Ahmer-kun&hide_border=true&background=040f1e&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8&sideLabels=4a7a96&dates=4a7a96&sideNums=e0f4ff&currStreakNum=e0f4ff" style="width:100%; border:1px solid var(--border);" loading="lazy"/>
-    </div>
-    <div style="margin-top:12px;">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmer-kun&bg_color=040f1e&color=00b4d8&line=0e2a44&point=00b4d8&area=true&area_color=0e2a44&hide_border=true" style="width:100%; border:1px solid var(--border);" loading="lazy"/>
-    </div>
-  </div>
-
-  <!-- OPERATOR PROFILE -->
-  <div class="panel" style="margin-bottom:2px;">
-    <div class="panel-title">OPERATOR PROFILE</div>
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:0;">
-      <div>
-        <div class="stack-row"><span class="stack-label">PEAK HOURS</span><span class="stack-val" style="color:var(--gold)">22:00 — 03:00 PKT</span></div>
-        <div class="stack-row"><span class="stack-label">COFFEE/DAY</span><span class="stack-val">3 cups minimum</span></div>
-        <div class="stack-row"><span class="stack-label">EDITOR</span><span class="stack-val">VS Code</span></div>
-        <div class="stack-row"><span class="stack-label">TABS/SPACES</span><span class="stack-val" style="color:var(--red)">SPACES. NON-NEGOTIABLE.</span></div>
-      </div>
-      <div style="padding-left:20px; border-left:1px solid var(--border);">
-        <div class="stack-row"><span class="stack-label">OBSESSION</span><span class="stack-val">CTF challenges</span></div>
-        <div class="stack-row"><span class="stack-label">SOUNDTRACK</span><span class="stack-val">Synthwave + Lo-fi</span></div>
-        <div class="stack-row"><span class="stack-label">PHILOSOPHY</span><span class="stack-val" style="color:var(--accent)">Understand to protect</span></div>
-        <div class="stack-row"><span class="stack-label">CONTACT</span><span class="stack-val" style="color:var(--green)">OPEN</span></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- FOOTER -->
-  <div class="footer-panel">
-    <div>
-      <div style="font-size:9px; color:var(--muted); letter-spacing:2px; margin-bottom:8px;">// ESTABLISH UPLINK</div>
-      <div class="connect-links">
-        <a class="link-btn" href="https://www.linkedin.com/in/muhammad-ahmer-b88485283" target="_blank">⬡ LINKEDIN</a>
-        <a class="link-btn" href="https://github.com/Ahmer-kun" target="_blank">⬡ GITHUB</a>
-        <a class="link-btn" href="https://ahmer-kun.github.io/myportfolio/" target="_blank">⬡ PORTFOLIO</a>
-      </div>
-    </div>
-    <div class="terminal-line" style="text-align:right;">
-      <div><span class="cmd">&gt; </span><span class="out">uplink established.</span></div>
-      <div><span class="cmd">&gt; </span>السَّلاَمُ عَلَيْكُمْ</div>
-      <div><span class="cmd">&gt; </span><span class="out">EOF</span><div class="cursor" style="display:inline-block;"></div></div>
-    </div>
-  </div>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0,020c18,020c18,0e2a44,00b4d8&height=260&section=header&text=AHMER%20AMIR&fontSize=72&fontColor=e0f4ff&fontAlignY=45&desc=FULL%20STACK%20DEVELOPER%20%20·%20%20CYBERSECURITY%20ANALYST%20%20·%20%20CS%20UNDERGRADUATE&descSize=13&descAlignY=68&descColor=00b4d8&animation=fadeIn&stroke=0e2a44&strokeWidth=1" width="100%"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=14&duration=2000&pause=600&color=00B4D8&center=true&vCenter=true&width=700&lines=▸+SYSTEM+BOOT+SEQUENCE+INITIATED...;▸+Loading+identity+module+[AHMER_AMIR]...;▸+Frontend+online+%3A+React+·+JavaScript+·+HTML5+·+CSS3;▸+Backend+online+%3A+Node.js+·+Express+·+MongoDB;▸+Security+suite+%3A+ARMED+AND+READY;▸+Certificates+verified+%3A+ISC²+·+IBM+·+IBM+·+Google;▸+Base+%3A+Karachi%2C+Pakistan+🇵🇰;▸+Year+%3A+2026;▸+Status+%3A+OPEN+TO+OPPORTUNITIES;▸+All+systems+nominal.+Awaiting+connection." />
+
+<br/>
+
+![](https://img.shields.io/badge/◉_STATUS-ONLINE-00b4d8?style=flat-square&labelColor=020c18)
+![](https://img.shields.io/badge/⬡_CLASS-FULL_STACK_+_SECURITY-00b4d8?style=flat-square&labelColor=020c18)
+![](https://img.shields.io/badge/◎_BASE-KARACHI_PK_🇵🇰-00b4d8?style=flat-square&labelColor=020c18)
+![](https://img.shields.io/badge/⌬_YEAR-2026-00b4d8?style=flat-square&labelColor=020c18)
+![](https://img.shields.io/badge/⬡_OPEN_TO-HIRE-f0a500?style=flat-square&labelColor=020c18)
+
+</div>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  ◈  IDENTITY_MANIFEST.exe                                       [VERIFIED] ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║   DESIGNATION  :  Ahmer Amir                                                 ║
+║   FUNCTION     :  Full Stack Developer  ·  Cybersecurity Analyst             ║
+║   ORIGIN       :  Karachi, Pakistan  🇵🇰                                      ║
+║   CLASS        :  CS Undergraduate  [ACTIVE]                                 ║
+║   YEAR         :  2026                                                        ║
+║   CLEARANCE    :  ISC² CC  ·  IBM Cybersecurity  ·  IBM FullStack            ║
+║                   Google IT Support                                           ║
+║   DIRECTIVE    :  Build it. Understand it. Break it. Secure it.              ║
+║   AVAILABILITY :  Open to opportunities & collaborations                     ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+---
+
+## `◈  TELEMETRY — GITHUB ANALYTICS`
+
+<div align="center">
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahmer-kun&show_icons=true&hide_border=true&bg_color=040f1e&title_color=00b4d8&icon_color=00b4d8&text_color=c8e8f5&ring_color=0e2a44" width="48%"/>
+<img src="https://streak-stats.demolab.com/?user=Ahmer-kun&hide_border=true&background=040f1e&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8&sideLabels=4a7a96&dates=4a7a96&sideNums=e0f4ff&currStreakNum=e0f4ff" width="48%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmer-kun&bg_color=040f1e&color=00b4d8&line=0e2a44&point=00b4d8&area=true&area_color=0e2a44&hide_border=true" width="98%"/>
+
+</div>
+
+<br/>
+
+---
+
+## `⬡  TECHNOLOGY STACK`
+
+<br/>
+
+```diff
++ FRONTEND    React · JavaScript ES6+ · HTML5 · CSS3
++ BACKEND     Node.js · Express.js · MongoDB · REST APIs · WebSockets
++ SECURITY    Nmap · Wireshark · Metasploit · Burp Suite · Kali Linux
++ SCRIPTING   Python · Bash · PowerShell
++ WEB3        Solidity · Ethereum · Web3.js
++ TOOLS       Git · Linux · VS Code
+```
+
+<br/>
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+**`// FRONTEND`**
+
+![React](https://img.shields.io/badge/React-020c18?logo=react&logoColor=00b4d8&style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-020c18?logo=javascript&logoColor=f0a500&style=flat-square)
+![HTML5](https://img.shields.io/badge/HTML5-020c18?logo=html5&logoColor=00b4d8&style=flat-square)
+![CSS3](https://img.shields.io/badge/CSS3-020c18?logo=css3&logoColor=00b4d8&style=flat-square)
+
+</td>
+<td valign="top" width="33%">
+
+**`// BACKEND`**
+
+![NodeJS](https://img.shields.io/badge/Node.js-020c18?logo=nodedotjs&logoColor=00e5a0&style=flat-square)
+![Express](https://img.shields.io/badge/Express-020c18?logo=express&logoColor=00e5a0&style=flat-square)
+![MongoDB](https://img.shields.io/badge/MongoDB-020c18?logo=mongodb&logoColor=00e5a0&style=flat-square)
+
+</td>
+<td valign="top" width="33%">
+
+**`// SECURITY`**
+
+![Kali](https://img.shields.io/badge/Kali_Linux-020c18?logo=kalilinux&logoColor=ff3c5a&style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-020c18?logo=wireshark&logoColor=ff3c5a&style=flat-square)
+![Metasploit](https://img.shields.io/badge/Metasploit-020c18?style=flat-square&logoColor=ff3c5a)
+![Burp](https://img.shields.io/badge/Burp_Suite-020c18?style=flat-square&logoColor=ff3c5a)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**`// SCRIPTING`**
+
+![Python](https://img.shields.io/badge/Python-020c18?logo=python&logoColor=f0a500&style=flat-square)
+![Bash](https://img.shields.io/badge/Bash-020c18?logo=gnubash&logoColor=f0a500&style=flat-square)
+![PowerShell](https://img.shields.io/badge/PowerShell-020c18?logo=powershell&logoColor=f0a500&style=flat-square)
+
+</td>
+<td valign="top">
+
+**`// WEB3`**
+
+![Solidity](https://img.shields.io/badge/Solidity-020c18?logo=solidity&logoColor=00b4d8&style=flat-square)
+![Ethereum](https://img.shields.io/badge/Ethereum-020c18?logo=ethereum&logoColor=00b4d8&style=flat-square)
+![Web3js](https://img.shields.io/badge/Web3.js-020c18?logo=web3dotjs&logoColor=00b4d8&style=flat-square)
+
+</td>
+<td valign="top">
+
+**`// TOOLS`**
+
+![Git](https://img.shields.io/badge/Git-020c18?logo=git&logoColor=00e5a0&style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-020c18?logo=linux&logoColor=00e5a0&style=flat-square)
+![VSCode](https://img.shields.io/badge/VS_Code-020c18?logo=visualstudiocode&logoColor=00e5a0&style=flat-square)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+## `◈  MISSION LOG — ACTIVE PROJECTS`
+
+<br/>
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  MISSION REGISTRY                                     CLASSIFICATION: DEV   │
+├───┬───────────────────────────────┬──────────────────────┬──────────────────┤
+│ # │ CODENAME                      │ STACK                │ STATUS           │
+├───┼───────────────────────────────┼──────────────────────┼──────────────────┤
+│ 1 │ PORTFOLIO PRIME               │ HTML · CSS · JS      │ ██████████ LIVE  │
+│ 2 │ COMMERCE NEXUS                │ React · Node · Mongo │ ██████████ LIVE  │
+│ 3 │ GHOST SCANNER [SEC]           │ Python · Nmap · Bash │ ████████░░ v0.8  │
+│ 4 │ SIGNAL — CHAT PROTOCOL        │ Node · Socket.io     │ ██████████ LIVE  │
+└───┴───────────────────────────────┴──────────────────────┴──────────────────┘
+```
+
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `[01]` &nbsp; Portfolio Prime
+**`HTML · CSS · JavaScript`**
+
+Dark, animated personal portfolio.
+Built to feel like a product, not a template.
+
+`Responsive` &nbsp;·&nbsp; `Dark Theme` &nbsp;·&nbsp; `Animations`
+
+[![](https://img.shields.io/badge/◈_VIEW_PROJECT-020c18?style=flat-square&color=020c18&logo=github&logoColor=00b4d8)](https://github.com/Ahmer-kun)
+
+</td>
+<td width="50%" valign="top">
+
+### `[02]` &nbsp; Commerce Nexus
+**`React · Node.js · MongoDB · Express`**
+
+Full stack e-commerce. JWT auth, product management, cart system, order tracking pipeline.
+
+`Full Stack` &nbsp;·&nbsp; `REST API` &nbsp;·&nbsp; `JWT Auth`
+
+[![](https://img.shields.io/badge/◈_VIEW_PROJECT-020c18?style=flat-square&color=020c18&logo=github&logoColor=00b4d8)](https://github.com/Ahmer-kun)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `[03]` &nbsp; Ghost Scanner `[SEC]`
+**`Python · Nmap · Bash`**
+
+CLI recon tool for host discovery, port scanning and vulnerability enumeration. Structured HTML report output.
+
+`Pentest` &nbsp;·&nbsp; `Automation` &nbsp;·&nbsp; `Security`
+
+[![](https://img.shields.io/badge/◈_VIEW_PROJECT-020c18?style=flat-square&color=020c18&logo=github&logoColor=00b4d8)](https://github.com/Ahmer-kun)
+
+</td>
+<td width="50%" valign="top">
+
+### `[04]` &nbsp; Signal — Chat Protocol
+**`Node.js · Socket.io · Express`**
+
+Real-time multi-room messaging. WebSocket architecture with live user presence tracking.
+
+`WebSockets` &nbsp;·&nbsp; `Real-time` &nbsp;·&nbsp; `Multi-room`
+
+[![](https://img.shields.io/badge/◈_VIEW_PROJECT-020c18?style=flat-square&color=020c18&logo=github&logoColor=00b4d8)](https://github.com/Ahmer-kun)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+## `◎  CLEARANCE REGISTRY — VERIFIED CREDENTIALS`
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║          VERIFIED CREDENTIALS — ACTIVE CLEARANCES            [YEAR: 2026]  ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  [★★★★]  ◈  CC — Certified in Cybersecurity (SCCP)   [ISC²]   VERIFIED ✓  ║
+║  [★★★★]  ◈  Cybersecurity Analyst Professional        [IBM]    VERIFIED ✓  ║
+║  [★★★★]  ◈  Full Stack JavaScript Developer           [IBM]    VERIFIED ✓  ║
+║  [★★★]   ◈  IT Support Specialist                     [GOOGLE] VERIFIED ✓  ║
+║                                                                              ║
+║  TOTAL CLEARANCES : 4          AUTHORITY : CONFIRMED                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+---
+
+## `⌬  OBJECTIVE MATRIX — 2026`
+
+<br/>
+
+```javascript
+// mission_control.js — 2026
+
+const AHMER = {
+  building  : [
+    "Secure full-stack web applications",
+    "Personal cybersecurity home lab",
+    "CLI security tooling in Python",
+  ],
+  learning  : [
+    "Advanced penetration testing & CTF challenges",
+    "Backend system design & microservices",
+    "Machine learning fundamentals",
+    "AWS cloud & infrastructure security",
+  ],
+  openTo    : ["Web Dev", "Cybersecurity", "IT Support", "Collaborations"],
+  endgame   : "Be the developer who builds it AND knows how to break it.",
+  available : true,
+};
+```
+
+<br/>
+
+---
+
+## `⬡  OPERATOR PROFILE`
+
+<br/>
+
+```json
+{
+  "operator"           : "Ahmer Amir",
+  "year"               : 2026,
+  "peak_hours"         : "22:00 — 03:00 PKT",
+  "coffee_per_day"     : 3,
+  "editor"             : "VS Code",
+  "current_obsession"  : "CTF challenges & penetration testing labs",
+  "soundtrack"         : "Synthwave + Lo-fi when debugging at 2am",
+  "philosophy"         : "Understand the system. Then outlast it.",
+  "tabs_or_spaces"     : "spaces — this is non-negotiable",
+  "open_to_contact"    : true
+}
+```
+
+<br/>
+
+---
+
+## `◎  ESTABLISH UPLINK`
+
+<div align="center">
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/◈_LINKEDIN-020c18?logo=linkedin&logoColor=00b4d8&style=for-the-badge)](https://www.linkedin.com/in/muhammad-ahmer-b88485283)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/◈_GITHUB-020c18?logo=github&logoColor=00b4d8&style=for-the-badge)](https://github.com/Ahmer-kun)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/◈_PORTFOLIO-020c18?logo=firefoxbrowser&logoColor=00b4d8&style=for-the-badge)](https://ahmer-kun.github.io/myportfolio/)
+
+<br/><br/>
+
+```
+╔══════════════════════════════════════════════════════╗
+║                                                      ║
+║   > uplink established.                              ║
+║   > if you're building something real — let's talk.  ║
+║   > السَّلاَمُ عَلَيْكُمْ                                   ║
+║   > EOF █                                            ║
+║                                                      ║
+╚══════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0,020c18,020c18,0e2a44,00b4d8&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
