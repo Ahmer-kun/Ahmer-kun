@@ -1,88 +1,115 @@
 <div align="center">
-<h2 id="السَّلاَمُ-عَلَيْكُمْ-وَرَحْمَةُ-اللهِ-وَبَرَكَاتُهُ"><b>السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ…✨</b></h2>
+<br/>
+
+# Ahmer Amir
+
+*Full Stack Developer · Cybersecurity Analyst · CS Undergraduate*
+
+<br/>
+
+> "The quieter you become, the more you can hear."
+
+<br/>
+
+![](https://img.shields.io/badge/Karachi%2C%20Pakistan-%23CC0000?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/Open%20To%20Work-%23CC0000?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/Actively%20Coding-%23CC0000?style=flat-square&labelColor=000000)
+
 </div>
 
-<h1 align="center"><b>Hi , I'm Ahmer Bin Amir </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
-<!--  -->
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&amp;color=cyan&amp;size=25&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=100&amp;lines=Assalamu+O+Alaikum+Warahmatullah..♥++;Undergraduate,;Computer+Science+Student,;IT+Support+Specialist,;Cybersecurity+Analyst/Enthusiast,;Web Developer,;Love+to+learn+new+stuffs..&lt;3"></a>
+---
 
-- 👋 I'm an aspiring undergraduate with a passion for Web Development, IT and learning new tech!
-- 🌱 I’m currently deepening my knowledge in Backend and Machine Learning, alongside exploring cybersecurity in depth.
-- 💻 I'm working on personal projects related to **Web Development** and **Full Stack Development**
-- 🚀 I'm open to collaboration and discussions on **Web Development**, **IT Support**.
+<br/>
 
+I build things for the web. I break things for security. I'm somewhere in between — a CS student from Karachi who got obsessed with both sides of the screen.
 
-## 🛠️ Skills & Tools
+Not looking to impress. Just building, learning, and occasionally staying up till 3am chasing a bug or a flag.
 
-### 🎨 Frontend
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=for-the-badge)
+<br/>
 
-### 🧠 Backend
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white&style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge)
+---
 
-### ⛓️ Blockchain / Web3
-![Ethereum](https://img.shields.io/badge/-Ethereum-3C3C3D?logo=ethereum&logoColor=white&style=for-the-badge)
-![Web3.js](https://img.shields.io/badge/-Web3.js-F16822?logo=web3dotjs&logoColor=white&style=for-the-badge)
-![Solidity](https://img.shields.io/badge/-Solidity-363636?logo=solidity&logoColor=white&style=for-the-badge)
+<br/>
 
-### ⚙️ Scripting & Shell
-![Bash](https://img.shields.io/badge/-Bash-121011?logo=gnu-bash&logoColor=white&style=for-the-badge)
-![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?logo=powershell&logoColor=white&style=for-the-badge)
+**What I work with**
 
-### 🧰 Developer Tools
-![Visual Studio Code](https://img.shields.io/badge/-VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge)
+Frontend &nbsp;—&nbsp; `HTML` `CSS` `JavaScript` `React`
 
-### 🛡️ Cybersecurity Tools
-![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?logo=wireshark&logoColor=white&style=for-the-badge)
-![Nmap](https://img.shields.io/badge/-Nmap-004A99?style=for-the-badge&logo=nmap&logoColor=white)
-![Metasploit](https://img.shields.io/badge/-Metasploit-507C89?style=for-the-badge)
-![Burp Suite](https://img.shields.io/badge/-Burp--Suite-FF6F00?style=for-the-badge)
+Backend &nbsp;—&nbsp; `Node.js` `Express` `MongoDB`
 
-## 📊 GitHub Stats
+Security &nbsp;—&nbsp; `Wireshark` `Nmap` `Metasploit` `Burp Suite` `Kali Linux`
+
+Scripting &nbsp;—&nbsp; `Bash` `PowerShell` `Python`
+
+Web3 &nbsp;—&nbsp;&nbsp;&nbsp;&nbsp; `Solidity` `Ethereum` `Web3.js`
+
+<br/>
+
+---
+
+<br/>
+
+**Things I've built**
+
+| Project | What it is | Stack |
+|---|---|---|
+| 🌐 Portfolio Site | Personal portfolio with animations | HTML · CSS · JS |
+| 🛒 E-Commerce App | Full stack shop with auth & cart | React · Node · MongoDB |
+| 🔍 Network Scanner | CLI recon & port scanning tool | Python · Nmap · Bash |
+| 💬 Chat App | Real-time messaging with rooms | Node · Socket.io |
+
+<br/>
+
+*Links coming soon — replace these with your actual repos.*
+
+<br/>
+
+---
+
+<br/>
+
+**What I've earned**
+
+- `ISC²` &nbsp; CC — Certified in Cybersecurity
+- `IBM` &nbsp;&nbsp; Cybersecurity Analyst Professional Certificate
+- `IBM` &nbsp;&nbsp; Full Stack JavaScript Developer
+- `Google` &nbsp; IT Support Specialist
+
+<br/>
+
+---
+
+<br/>
+
+**Where my head is at — 2025**
+
+Deepening backend architecture. Getting serious about penetration testing. Slowly building a home lab. Exploring machine learning on the side.
+
+Interested in working together? Reach out.
+
+<br/>
+
+---
 
 <div align="center">
-  <!-- Stats -->
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahmer-kun&show_icons=true&theme=radical&hide_border=true" width="48%" />
-  
-  <!-- Languages -->
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ahmer-kun&layout=compact&theme=radical&hide_border=true" width="48%" />
-  <br/>
-  
-  <!-- Streak Stats - WORKING VERSION -->
-  <img src="https://streak-stats.demolab.com/?user=Ahmer-kun&theme=radical" width="48%" />
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?logo=linkedin&logoColor=CC0000&style=flat-square)](https://www.linkedin.com/in/muhammad-ahmer-b88485283)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=CC0000&style=flat-square)](https://github.com/Ahmer-kun)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=firefoxbrowser&logoColor=CC0000&style=flat-square)](https://ahmer-kun.github.io/myportfolio/)
+
+<br/><br/>
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Ahmer-kun&show_icons=true&hide_border=true&bg_color=000000&title_color=CC0000&icon_color=CC0000&text_color=ffffff&hide_rank=false)
+
 </div>
 
-<!--
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/muhammad-ahmer-b88485283)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge)](https://twitter.com/yourhandle)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-121212?style=for-the-badge)]([https://yourwebsite.com](https://ahmer-kun.github.io/myportfolio/))-->
+<br/>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/muhammad-ahmer-b88485283" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" />
-  </a>
+*Ahmer Amir · Karachi · 2025*
 
-  <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge" />
-  </a>
-
-  <a href="https://asquardev.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-121212?logo=github&logoColor=white&style=for-the-badge" />
-  </a>
-</p>
-
-
-<!---
-Ahmer-kun/Ahmer-kun is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-## Let’s Connect! 🚀
-Feel free to reach out if you're working on something interesting or just want to chat about technology and programming. I’m always open to learning and sharing ideas. 🔥
+</div>
