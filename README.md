@@ -1,31 +1,15 @@
 <div align="center">
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=1,2,3&height=180&section=header&text=Ahmer%20Amir&fontSize=65&fontColor=F5E6C8&fontAlignY=55&desc=developer.%20analyst.%20student.&descAlignY=78&descColor=D4845A&animation=blinking" width="100%"/>
+
+</div>
 
 <br/>
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│         SYSTEM BOOT . . . IDENTITY LOAD . . . OK               │
-│                                                                 │
-│   ░█████╗░██╗░░██╗███╗░░░███╗███████╗██████╗░                  │
-│   ██╔══██╗██║░░██║████╗░████║██╔════╝██╔══██╗                  │
-│   ███████║███████║██╔████╔██║█████╗░░██████╔╝                  │
-│   ██╔══██║██╔══██║██║╚██╔╝██║██╔══╝░░██╔══██╗                  │
-│   ██║░░██║██║░░██║██║░╚═╝░██║███████╗██║░░██║                  │
-│   ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░╚═╝╚══════╝╚═╝░░╚═╝                  │
-│                                                                 │
-│              [ FULL STACK · CYBERSECURITY · CS ]               │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=18&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&width=600&lines=Initializing+developer+profile...;Stack+loaded%3A+React+%7C+Node+%7C+MongoDB;Security+modules%3A+ACTIVE;Location%3A+Karachi%2C+Pakistan;Status%3A+Open+to+Opportunities;%3E+Ready." />
-
-<br/>
-
-![](https://img.shields.io/badge/◉_ONLINE-00D4FF?style=flat-square&labelColor=0d1b2a&color=0d1b2a&logoColor=00D4FF)
-![](https://img.shields.io/badge/SYS_STATUS-OPERATIONAL-00D4FF?style=flat-square&labelColor=0d1b2a)
-![](https://img.shields.io/badge/LOCATION-KARACHI_PK-silver?style=flat-square&labelColor=0d1b2a)
+*Karachi, Pakistan &nbsp;·&nbsp; CS Undergraduate &nbsp;·&nbsp; Building & Breaking Things Since 2020*
 
 </div>
 
@@ -33,109 +17,135 @@
 
 ---
 
-```
-> run profile.exe --user="Ahmer Amir" --verbose
+<br/>
 
-Loading identity...
+Hey. I'm Ahmer.
 
-  NAME     : Ahmer Amir
-  ROLE     : Full Stack Developer + Cybersecurity Analyst
-  BASE     : Karachi, Pakistan
-  CLASS    : CS Undergraduate
-  STATUS   : Actively building. Always learning.
-  MINDSET  : Build it right. Then figure out how to break it.
+I write code for the web and break it for sport. Not in a destructive way — in the way where you need to understand something deeply before you can protect it. That's what pulled me into cybersecurity while I was knee-deep in JavaScript.
 
-Done. — 4 modules loaded successfully.
-```
+I'm a CS undergrad from Karachi. I build full-stack applications. I chase vulnerabilities. I stay up too late. I drink too much coffee. I'm learning every single day and I genuinely love it.
+
+This isn't a corporate profile. It's just me.
+
+<br/>
 
 ---
 
-### `// TECH STACK`
+<br/>
 
-```diff
-+ FRONTEND    React · JavaScript · HTML5 · CSS3
-+ BACKEND     Node.js · Express.js · MongoDB · REST APIs
-+ SECURITY    Nmap · Wireshark · Metasploit · Burp Suite · Kali
-+ SCRIPTING   Python · Bash · PowerShell
-+ WEB3        Solidity · Ethereum · Web3.js
-+ TOOLS       Git · VS Code · Linux
-```
+### what i work with
 
----
+*Frontend* &nbsp;→&nbsp; React · JavaScript · HTML · CSS
 
-### `// ACTIVE PROJECTS`
+*Backend* &nbsp;&nbsp;→&nbsp; Node.js · Express · MongoDB
 
-```
-┌──────────────────────────────┬───────────────────────────────┐
-│  [01] Portfolio Website      │  [02] E-Commerce Platform     │
-│  HTML · CSS · JavaScript     │  React · Node.js · MongoDB    │
-│  Status: ██████████ LIVE     │  Status: ██████████ LIVE      │
-├──────────────────────────────┼───────────────────────────────┤
-│  [03] Network Recon Tool     │  [04] Real-Time Chat App      │
-│  Python · Nmap · Bash        │  Node.js · Socket.io          │
-│  Status: ████████░░ v0.8     │  Status: ██████████ LIVE      │
-└──────────────────────────────┴───────────────────────────────┘
+*Security* &nbsp;→&nbsp; Nmap · Wireshark · Metasploit · Burp Suite · Kali Linux
 
-→ Replace [##] project links with your actual GitHub repos
-```
+*Scripting* →&nbsp; Python · Bash · PowerShell
+
+*Web3* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp; Solidity · Ethereum · Web3.js
+
+*Always* &nbsp;&nbsp;&nbsp;→&nbsp; Git · VS Code · curiosity
+
+<br/>
 
 ---
 
-### `// CLEARANCE LEVEL — CERTIFICATIONS`
+<br/>
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  CERTIFICATION REGISTRY                              [VERIFIED] │
-├─────────────────────────────────────────────────────────────────┤
-│  [★★★]  CC — Certified in Cybersecurity        ISC²            │
-│  [★★★]  Cybersecurity Analyst Professional     IBM             │
-│  [★★★]  Full Stack JavaScript Developer        IBM             │
-│  [★★★]  IT Support Specialist                  Google          │
-└─────────────────────────────────────────────────────────────────┘
-```
+### things i've built
+
+**Portfolio Website** &nbsp;·&nbsp; *HTML, CSS, JS*
+My corner of the internet. Dark, animated, mine.
+[→ repo link here]
+
+<br/>
+
+**E-Commerce Platform** &nbsp;·&nbsp; *React, Node, MongoDB*
+Full stack. JWT auth. Cart. Orders. The whole thing.
+[→ repo link here]
+
+<br/>
+
+**Network Recon Tool** &nbsp;·&nbsp; *Python, Nmap, Bash*
+CLI tool for host discovery and port scanning. Scratched my own itch.
+[→ repo link here]
+
+<br/>
+
+**Real-Time Chat App** &nbsp;·&nbsp; *Node.js, Socket.io*
+Multi-room. Real-time. Simple and clean.
+[→ repo link here]
+
+<br/>
+
+*more coming. always more coming.*
+
+<br/>
 
 ---
 
-### `// CURRENT OBJECTIVES — 2025`
+<br/>
 
-```javascript
-const mission_2025 = {
-  primary   : "Master backend architecture & system design",
-  secondary : "Advance penetration testing skills (CTFs, home lab)",
-  tertiary  : "Explore ML & AWS cloud fundamentals",
-  ultimate  : "Be the dev who builds AND knows how to break it"
-};
-```
+### certifications
+
+Things I sat down and earned —
+
+&nbsp;&nbsp;↳ &nbsp; **CC — Certified in Cybersecurity** &nbsp;·&nbsp; ISC²
+
+&nbsp;&nbsp;↳ &nbsp; **Cybersecurity Analyst** &nbsp;·&nbsp; IBM
+
+&nbsp;&nbsp;↳ &nbsp; **Full Stack JavaScript Developer** &nbsp;·&nbsp; IBM
+
+&nbsp;&nbsp;↳ &nbsp; **IT Support Specialist** &nbsp;·&nbsp; Google
+
+<br/>
 
 ---
 
-### `// GITHUB TELEMETRY`
+<br/>
+
+### where i'm at right now
+
+Building more. Breaking more. Getting serious about penetration testing.
+Setting up a home lab. Slowly exploring machine learning.
+Trying to become the kind of developer who truly understands what they build — from the frontend to the packet level.
+
+2025 feels important. Working like it.
+
+<br/>
+
+---
+
+<br/>
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahmer-kun&show_icons=true&hide_border=true&bg_color=0d1b2a&title_color=00D4FF&icon_color=00D4FF&text_color=c0c0c0" width="48%"/>
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ahmer-kun&layout=compact&hide_border=true&bg_color=0d1b2a&title_color=00D4FF&text_color=c0c0c0" width="48%"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahmer-kun&show_icons=true&hide_border=true&bg_color=1a1208&title_color=D4845A&icon_color=F5A623&text_color=F5E6C8" width="48%"/>
+<img src="https://streak-stats.demolab.com/?user=Ahmer-kun&hide_border=true&background=1a1208&ring=D4845A&fire=F5A623&currStreakLabel=D4845A&sideLabels=F5E6C8&dates=F5E6C8" width="48%"/>
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+*find me here if you want to build something, talk tech, or just say salaam —*
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1208?logo=linkedin&logoColor=D4845A&style=flat-square)](https://www.linkedin.com/in/muhammad-ahmer-b88485283)
+&nbsp;&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-1a1208?logo=github&logoColor=D4845A&style=flat-square)](https://github.com/Ahmer-kun)
+&nbsp;&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-1a1208?logo=firefoxbrowser&logoColor=D4845A&style=flat-square)](https://ahmer-kun.github.io/myportfolio/)
+
 <br/><br/>
-<img src="https://streak-stats.demolab.com/?user=Ahmer-kun&hide_border=true&background=0d1b2a&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=c0c0c0&dates=c0c0c0" width="60%"/>
 
-</div>
-
----
-
-### `// ESTABLISH CONNECTION`
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0d1b2a?logo=linkedin&logoColor=00D4FF&style=for-the-badge)](https://www.linkedin.com/in/muhammad-ahmer-b88485283)
-[![GitHub](https://img.shields.io/badge/GITHUB-0d1b2a?logo=github&logoColor=00D4FF&style=for-the-badge)](https://github.com/Ahmer-kun)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0d1b2a?logo=firefoxbrowser&logoColor=00D4FF&style=for-the-badge)](https://ahmer-kun.github.io/myportfolio/)
-
-<br/>
-
-```
-> Connection open. Ping me anytime.
-> "The best way to predict the future is to build it."
-> EOF
-```
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=1,2,3&height=80&section=footer" width="100%"/>
 
 </div>
