@@ -29,21 +29,21 @@
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════╗
-║  ██  IDENTITY_MANIFEST.exe ─────────────────────────────── [ AUTHENTICATED ] ║
+║  ██  IDENTITY_MANIFEST.exe ──────────────────────────────── [ AUTHENTICATED ] ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                               ║
 ║   CALLSIGN     ──  Ahmer Amir                                                 ║
 ║   PRIMARY      ──  Full Stack Developer   ( React · Node.js · MongoDB )       ║
 ║   SECONDARY    ──  Cybersecurity Enthusiast  ·  IT Support Specialist         ║
-║   ORIGIN       ──  Karachi, Pakistan  🇵🇰                                      ║
+║   ORIGIN       ──  Karachi, Pakistan                                          ║
 ║   AFFILIATION  ──  CS Undergraduate  [ ACTIVE ]                               ║
-║   STARDATE     ──  2026                                                        ║
+║   STARDATE     ──  2026                                                       ║
 ║   DIRECTIVE    ──  Build it clean.  Build it fast.  Build it secure.          ║
 ║   CLEARANCES   ──  ISC² CC  ·  IBM Cybersecurity  ·  IBM Full Stack           ║
-║                    Google IT Support                                           ║
+║                    Google IT Support                                          ║
 ║   AVAILABILITY ──  Open to opportunities & collaborations                     ║
 ║                                                                               ║
-║   [ UPLINK : OPEN ]  ──────────────────────────  [ AUTHORITY : CONFIRMED ]   ║
+║   [ UPLINK : OPEN ]  ──────────────────────────  [ AUTHORITY : CONFIRMED ]    ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -158,7 +158,7 @@ const STACK = {
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════╗
-║  ██  MISSION REGISTRY ──────────────────────────── CLASSIFICATION : DEV/SEC  ║
+║  ██  MISSION REGISTRY ──────────────────────────── CLASSIFICATION : DEV/SEC   ║
 ╠═══╦══════════════════════════════╦═══════════════════════╦════════════════════╣
 ║ # ║ CODENAME                     ║ STACK                 ║ STATUS             ║
 ╠═══╬══════════════════════════════╬═══════════════════════╬════════════════════╣
@@ -244,18 +244,18 @@ clean minimalist UI with room management.
 <br/>
 
 ```
-╔═══════════════════════════════════════════════════════════════════════════════╗
+╔══════════════════════════════════════════════════════════════════════════════════╗
 ║  ██  CREDENTIAL VAULT ───────────────────────────────────── [ STARDATE 2026 ]║
-╠══════════╦════════════════════════════════════════╦═══════════════╦══════════╣
-║  LEVEL   ║  CERTIFICATION                         ║  ISSUER       ║  STATUS  ║
-╠══════════╬════════════════════════════════════════╬═══════════════╬══════════╣
-║  ★ ★ ★ ★ ║  CC — Certified in Cybersecurity       ║  ISC²/Coursera║  ACTIVE  ║
-║  ★ ★ ★ ★ ║  Cybersecurity Analyst Professional    ║  IBM/Coursera ║  ACTIVE  ║
-║  ★ ★ ★ ★ ║  Full Stack JavaScript Developer       ║  IBM/Coursera ║  ACTIVE  ║
-║  ★ ★ ★   ║  IT Support Specialist                 ║  Google/Crsra ║  ACTIVE  ║
-╠══════════╩════════════════════════════════════════╩═══════════════╩══════════╣
-║  TOTAL : 4 active clearances ─────────────────────── AUTHORITY : CONFIRMED  ║
-╚═══════════════════════════════════════════════════════════════════════════════╝
+╠══════════╦════════════════════════════════════════╦═══════════════╦══════════════╣
+║  LEVEL   ║  CERTIFICATION                         ║  ISSUER       ║  STATUS      ║
+╠══════════╬════════════════════════════════════════╬═══════════════╬══════════════╣
+║  ★ ★ ★ ★ ║  CC — Certified in Cybersecurity     ║  ISC²/Coursera║  ACTIVE      ║
+║  ★ ★ ★ ★ ║  Cybersecurity Analyst Professional  ║  IBM/Coursera ║  ACTIVE      ║
+║  ★ ★ ★ ★ ║  Full Stack JavaScript Developer     ║  IBM/Coursera ║  ACTIVE      ║
+║  ★ ★ ★ ★ ║  IT Support Specialist               ║  Google       ║  ACTIVE      ║
+╠══════════╩════════════════════════════════════════╩═══════════════╩══════════════╣
+║  TOTAL : 4 active clearances ─────────────────────── AUTHORITY : CONFIRMED       ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
 ```
 
 <br/>
