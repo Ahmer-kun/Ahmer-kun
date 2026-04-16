@@ -1,170 +1,136 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:020617,100:001a1a&height=300&section=header&text=AHMER%20AMIR&fontSize=80&fontColor=00fff2&fontAlignY=40&desc=SYSTEM%20ARCHITECT%20·%20FULL%20STACK%20ENGINEER%20·%20SECURITY%20MINDED&descSize=13&descAlignY=65&descColor=00ffaa&animation=fadeIn" width="100%"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=13&duration=1600&pause=400&color=00FFF2&center=true&vCenter=true&width=900&lines=BOOTING+NEURAL+PROFILE...;INITIALIZING+SYSTEM+CORE...;LOADING+FULL+STACK+MODULE...;SECURITY+LAYER+ATTACHED...;STATUS:+ONLINE+AND+OPERATIONAL;UPLINK+READY+FOR+CONNECTION" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:020617,100:001a1a&height=300&section=header&text=AHMER%20AMIR&fontSize=80&fontColor=00fff2&fontAlignY=40&desc=INTERACTIVE%20TERMINAL%20PROFILE&descSize=13&descAlignY=65&descColor=00ffaa&animation=fadeIn" width="100%"/>
 
 </div>
 
 ---
 
-<h3 align="center">
-I engineer full-stack systems that are fast, scalable — and hard to break.
-</h3>
-
----
-
-<div align="center">
-
-![](https://img.shields.io/badge/STATUS-ONLINE-00fff2?style=flat-square\&labelColor=000000)
-![](https://img.shields.io/badge/ROLE-FULL_STACK_ENGINEER-00fff2?style=flat-square\&labelColor=000000)
-![](https://img.shields.io/badge/SPECIALTY-SECURE_SYSTEMS-00ffaa?style=flat-square\&labelColor=000000)
-![](https://img.shields.io/badge/LOCATION-KARACHI_🇵🇰-00fff2?style=flat-square\&labelColor=000000)
-![](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-ff0055?style=flat-square\&labelColor=000000)
-
-</div>
-
----
-
+```bash
+> boot sequence initialized...
+> loading operator profile...
+> system status: ONLINE
 ```
-> run identity.exe
 
-[ OK ] AUTHENTICATION SUCCESSFUL
+<h3 align="center">🟢 INTERACTIVE TERMINAL — TYPE A COMMAND</h3>
 
-┌───────────────────────────────────────────────┐
-│  NAME        :: Ahmer Amir                   │
-│  CLASS       :: Full Stack Engineer          │
-│  SUBCLASS    :: Security-Oriented Developer  │
-│  ORIGIN      :: Karachi, Pakistan            │
-│  BUILD       :: MERN Stack Systems           │
-│  DIRECTIVE   :: Build. Break. Secure. Repeat.│
-│  STATUS      :: AVAILABLE FOR DEPLOYMENT     │
-└───────────────────────────────────────────────┘
+<div align="center">
 
-> system.philosophy()
+[![whoami](https://img.shields.io/badge/>_whoami-000000?style=for-the-badge\&logoColor=00fff2)](#-whoami)
+[![stack](https://img.shields.io/badge/>_stack-000000?style=for-the-badge\&logoColor=00fff2)](#-stack)
+[![projects](https://img.shields.io/badge/>_projects-000000?style=for-the-badge\&logoColor=00fff2)](#-projects)
+[![metrics](https://img.shields.io/badge/>_metrics-000000?style=for-the-badge\&logoColor=00fff2)](#-metrics)
+[![contact](https://img.shields.io/badge/>_contact-000000?style=for-the-badge\&logoColor=00fff2)](#-contact)
 
-"Any system I build should work in production —
- and resist the people trying to break it."
+</div>
+
+---
+
+## 🧑‍💻 whoami
+
+```bash
+> run whoami
+```
+
+```json
+{
+  "name": "Ahmer Amir",
+  "role": "Full Stack Engineer",
+  "specialization": "Secure Web Applications",
+  "location": "Karachi, Pakistan",
+  "status": "Open to Work",
+  "mission": "Build scalable systems that survive real-world conditions"
+}
 ```
 
 ---
 
-## ◈ SYSTEM CAPABILITIES
+## ⚙️ stack
+
+```bash
+> load stack
+```
 
 ```yaml
-FRONTEND:
-  - React.js (Dynamic UI Systems)
-  - Tailwind / Responsive Design
-  - Performance Optimization
+frontend:
+  - React.js
+  - TailwindCSS
+  - Responsive UI
 
-BACKEND:
-  - Node.js / Express
-  - REST API Architecture
-  - JWT Authentication Systems
+backend:
+  - Node.js
+  - Express.js
+  - REST APIs
 
-DATABASE:
-  - MongoDB (Schema Design, Optimization)
+database:
+  - MongoDB
 
-SECURITY:
-  - Web App Pentesting
-  - Network Analysis (Wireshark, Nmap)
-  - Secure Coding Practices (OWASP mindset)
+security:
+  - JWT Authentication
+  - Web Security (OWASP mindset)
+  - Nmap · Wireshark · Burp Suite
 
-TOOLS:
-  - Git · Linux · VS Code · Bash · Python
+tools:
+  - Git · Linux · VS Code · Python
 ```
 
 ---
 
-## ◈ ACTIVE DEPLOYMENTS
+## 🚀 projects
 
+```bash
+> fetch projects
 ```
-[01] COMMERCE NEXUS
-     → Full-stack e-commerce system
-     → Auth · Cart · Orders · REST APIs
 
-[02] SIGNAL PROTOCOL
-     → Real-time chat system
-     → WebSockets · Multi-room architecture
+### ◈ COMMERCE NEXUS
 
-[03] GHOST SCANNER
-     → CLI security reconnaissance tool
-     → Automated scanning & reporting
+* Full-stack MERN e-commerce system
+* Auth · Cart · Orders · API architecture
 
-[04] PORTFOLIO PRIME
-     → Interactive personal system UI
-     → Smooth animations · responsive design
-```
+### ◈ SIGNAL PROTOCOL
+
+* Real-time chat application
+* WebSockets · Multi-room
+
+### ◈ GHOST SCANNER
+
+* CLI security reconnaissance tool
+* Automated scanning + reports
+
+### ◈ PORTFOLIO PRIME
+
+* Interactive personal UI system
+* Smooth animations + responsive
 
 ---
 
-## ◈ PERFORMANCE LOG
+## 📊 metrics
+
+```bash
+> show metrics
+```
 
 ```diff
-+ Built multiple MERN stack systems with authentication & scalable backend logic
-+ Designed REST APIs with secure access control (JWT)
-+ Developed CLI security tools for automated reconnaissance workflows
-+ Applied cybersecurity mindset to full-stack development
-+ Focused on clean architecture, performance, and maintainability
++ Built multiple full-stack MERN applications
++ Designed secure REST APIs with JWT authentication
++ Developed CLI security tools for recon workflows
++ Focused on performance, clean code & scalability
 ```
-
----
-
-## ◈ CURRENT OPERATIONS
-
-```ini
-[ BUILDING ]
-→ Production-ready full-stack applications
-→ Secure backend systems
-
-[ LEARNING ]
-→ System Design & Microservices
-→ Cloud (AWS)
-
-[ EXPLORING ]
-→ Advanced Web Security
-→ Red Teaming / CTFs
-```
-
----
-
-## ◈ GITHUB TELEMETRY
 
 <div align="center">
 
 <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahmer-kun&show_icons=true&hide_border=true&bg_color=000000&title_color=00fff2&icon_color=00fff2&text_color=00ffaa" width="48%"/>
 <img src="https://streak-stats.demolab.com/?user=Ahmer-kun&hide_border=true&background=000000&ring=00fff2&currStreakLabel=00ffaa&currStreakNum=00fff2" width="48%"/>
 
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmer-kun&bg_color=000000&color=00fff2&line=00ffaa&point=ff0055&area=true&hide_border=true" width="98%"/>
-
 </div>
 
 ---
 
-## ◈ OPERATOR PROFILE
+## 📡 contact
 
-```json
-{
-  "alias": "Ahmer Amir",
-  "role": "Full Stack Engineer",
-  "focus": "Secure Systems",
-  "active_hours": "22:00 - 03:00 PKT",
-  "coffee_level": "critical",
-  "editor": "VS Code",
-  "philosophy": "Build systems that survive real-world conditions",
-  "status": "deployable"
-}
+```bash
+> initiate uplink
 ```
-
----
-
-## ◈ ESTABLISH CONNECTION
 
 <div align="center">
 
@@ -176,11 +142,11 @@ TOOLS:
 
 ---
 
-```
-> await connection...
+```bash
+> connection established...
 
-If you're building something real,
-or need a developer who understands both code and security —
+If you're building something real —
+or need a developer who understands both code and security:
 
 Let's talk.
 ```
@@ -189,6 +155,6 @@ Let's talk.
 
 <div align="center">
 
-![](https://img.shields.io/badge/SYSTEM-ALWAYS_EVOLVING-00fff2?style=flat-square\&labelColor=000000)
+![](https://img.shields.io/badge/SYSTEM-INTERACTIVE_MODE_ACTIVE-00fff2?style=flat-square\&labelColor=000000)
 
 </div>
