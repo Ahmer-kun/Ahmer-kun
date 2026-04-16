@@ -33,7 +33,7 @@ Ask the system anything — or run a command:
 
 ---
 
-## 🧑‍💻 whoami
+## Who Am I
 
 ```bash
 > run identity.exe
@@ -41,12 +41,12 @@ Ask the system anything — or run a command:
 
 ```
 ╔══════════════════════════════════════════════════════════╗
-║  NAME        :: Ahmer Amir                              ║
-║  ROLE        :: Full Stack Developer                    ║
-║  SPECIALTY   :: Secure & Scalable Systems               ║
-║  LOCATION    :: Karachi, Pakistan 🇵🇰                   ║
-║  STATUS      :: Open to Opportunities                   ║
-║  DIRECTIVE   :: Build clean. Build fast. Build secure.  ║
+║  NAME        :: Ahmer Amir                               ║
+║  ROLE        :: Full Stack Developer                     ║
+║  SPECIALTY   :: Secure & Scalable Systems                ║
+║  LOCATION    :: Karachi, Pakistan                        ║
+║  STATUS      :: Open to Opportunities                    ║
+║  DIRECTIVE   :: Build clean. Build fast. Build secure.   ║
 ╚══════════════════════════════════════════════════════════╝
 ```
 
@@ -59,7 +59,7 @@ ahmer.ai:
 
 ---
 
-## ⚙️ arsenal
+## Arsenal
 
 ```bash
 > load stack.config.js
@@ -94,7 +94,7 @@ const STACK = {
 
 ---
 
-## 🚀 projects
+## Projects
 
 ```bash
 > fetch mission_log
@@ -122,7 +122,7 @@ const STACK = {
 
 ---
 
-## 🏅 certifications
+## Certifications
 
 ```bash
 > open clearance_registry
@@ -135,7 +135,7 @@ const STACK = {
 
 ---
 
-## 🎯 objectives
+## Objectives
 
 ```bash
 > load objectives_2026
@@ -159,7 +159,7 @@ endgame:
 
 ---
 
-## 📊 telemetry
+## Telemetry
 
 ```bash
 > system metrics
@@ -185,7 +185,7 @@ endgame:
 
 ---
 
-## 📡 contact
+## Contact
 
 ```bash
 > establish uplink
