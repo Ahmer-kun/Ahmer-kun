@@ -1,25 +1,32 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:020617,100:001a1a&height=300&section=header&text=AHMER%20AMIR&fontSize=80&fontColor=00fff2&fontAlignY=40&desc=INTERACTIVE%20TERMINAL%20PROFILE&descSize=13&descAlignY=65&descColor=00ffaa&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:020617,100:001a1a&height=300&section=header&text=AHMER.AI&fontSize=80&fontColor=00fff2&fontAlignY=40&desc=AUTONOMOUS%20DEVELOPER%20INTERFACE&descSize=13&descAlignY=65&descColor=00ffaa&animation=fadeIn" width="100%"/>
 
 </div>
 
 ---
 
 ```bash
-> boot sequence initialized...
-> loading operator profile...
-> system status: ONLINE
+> boot ahmer.ai
+> initializing neural profile...
+> loading full stack modules...
+> security layer: ACTIVE
+> status: ONLINE
 ```
 
-<h3 align="center">🟢 INTERACTIVE TERMINAL — TYPE A COMMAND</h3>
+<h3 align="center">🧠 AHMER.AI — INTERACTIVE DEVELOPER INTERFACE</h3>
+
+<p align="center">
+Ask the system anything — or run a command:
+</p>
 
 <div align="center">
 
 [![whoami](https://img.shields.io/badge/>_whoami-000000?style=for-the-badge\&logoColor=00fff2)](#-whoami)
-[![stack](https://img.shields.io/badge/>_stack-000000?style=for-the-badge\&logoColor=00fff2)](#-stack)
+[![arsenal](https://img.shields.io/badge/>_arsenal-000000?style=for-the-badge\&logoColor=00fff2)](#-arsenal)
 [![projects](https://img.shields.io/badge/>_projects-000000?style=for-the-badge\&logoColor=00fff2)](#-projects)
-[![metrics](https://img.shields.io/badge/>_metrics-000000?style=for-the-badge\&logoColor=00fff2)](#-metrics)
+[![certs](https://img.shields.io/badge/>_certifications-000000?style=for-the-badge\&logoColor=00fff2)](#-certifications)
+[![objectives](https://img.shields.io/badge/>_objectives-000000?style=for-the-badge\&logoColor=00fff2)](#-objectives)
 [![contact](https://img.shields.io/badge/>_contact-000000?style=for-the-badge\&logoColor=00fff2)](#-contact)
 
 </div>
@@ -29,49 +36,60 @@
 ## 🧑‍💻 whoami
 
 ```bash
-> run whoami
+> run identity.exe
 ```
 
-```json
-{
-  "name": "Ahmer Amir",
-  "role": "Full Stack Engineer",
-  "specialization": "Secure Web Applications",
-  "location": "Karachi, Pakistan",
-  "status": "Open to Work",
-  "mission": "Build scalable systems that survive real-world conditions"
-}
+```
+╔══════════════════════════════════════════════════════════╗
+║  NAME        :: Ahmer Amir                              ║
+║  ROLE        :: Full Stack Developer                    ║
+║  SPECIALTY   :: Secure & Scalable Systems               ║
+║  LOCATION    :: Karachi, Pakistan 🇵🇰                   ║
+║  STATUS      :: Open to Opportunities                   ║
+║  DIRECTIVE   :: Build clean. Build fast. Build secure.  ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+```txt
+ahmer.ai:
+→ I design and build production-ready MERN stack systems
+→ I integrate security thinking into development
+→ I focus on real-world performance, not just theory
 ```
 
 ---
 
-## ⚙️ stack
+## ⚙️ arsenal
 
 ```bash
-> load stack
+> load stack.config.js
 ```
 
-```yaml
-frontend:
-  - React.js
-  - TailwindCSS
-  - Responsive UI
+```js
+const STACK = {
 
-backend:
-  - Node.js
-  - Express.js
-  - REST APIs
+  frontend : {
+    languages  : [ "JavaScript ES6+", "HTML5", "CSS3" ],
+    frameworks : [ "React.js", "Redux" ],
+    styling    : [ "TailwindCSS", "Sass", "Bootstrap" ],
+  },
 
-database:
-  - MongoDB
+  backend : {
+    runtime    : "Node.js",
+    framework  : "Express.js",
+    database   : "MongoDB",
+    protocols  : [ "REST APIs", "JWT Authentication" ],
+  },
 
-security:
-  - JWT Authentication
-  - Web Security (OWASP mindset)
-  - Nmap · Wireshark · Burp Suite
+  security_it : {
+    tools   : [ "Nmap", "Wireshark", "Burp Suite", "Metasploit" ],
+    domains : [ "Web Security", "Network Analysis", "Pentesting" ],
+  },
 
-tools:
-  - Git · Linux · VS Code · Python
+  scripting : [ "Python", "Bash", "PowerShell" ],
+  toolchain : [ "Git", "Linux", "VS Code" ],
+
+};
 ```
 
 ---
@@ -79,48 +97,89 @@ tools:
 ## 🚀 projects
 
 ```bash
-> fetch projects
+> fetch mission_log
 ```
 
 ### ◈ COMMERCE NEXUS
 
-* Full-stack MERN e-commerce system
-* Auth · Cart · Orders · API architecture
+* Full-stack MERN e-commerce platform
+* JWT authentication, REST APIs, scalable backend
 
-### ◈ SIGNAL PROTOCOL
+### ◈ SIGNAL — CHAT PROTOCOL
 
-* Real-time chat application
-* WebSockets · Multi-room
+* Real-time messaging system
+* WebSockets · multi-room architecture
 
 ### ◈ GHOST SCANNER
 
-* CLI security reconnaissance tool
-* Automated scanning + reports
+* CLI-based reconnaissance & scanning tool
+* Automated enumeration workflows
 
 ### ◈ PORTFOLIO PRIME
 
-* Interactive personal UI system
-* Smooth animations + responsive
+* Interactive portfolio system
+* Smooth UI · responsive design
 
 ---
 
-## 📊 metrics
+## 🏅 certifications
 
 ```bash
-> show metrics
+> open clearance_registry
+```
+
+* ISC² — Certified in Cybersecurity
+* IBM — Cybersecurity Analyst
+* IBM — Full Stack Developer
+* Google — IT Support Specialist
+
+---
+
+## 🎯 objectives
+
+```bash
+> load objectives_2026
+```
+
+```yaml
+building:
+  - Production-grade MERN applications
+  - Secure backend architectures
+  - Real-world scalable systems
+
+learning:
+  - System Design
+  - AWS Cloud
+  - Advanced React patterns
+  - Penetration Testing (CTFs)
+
+endgame:
+  Ship software that works, scales, and resists attacks
+```
+
+---
+
+## 📊 telemetry
+
+```bash
+> system metrics
 ```
 
 ```diff
-+ Built multiple full-stack MERN applications
-+ Designed secure REST APIs with JWT authentication
-+ Developed CLI security tools for recon workflows
-+ Focused on performance, clean code & scalability
++ Built multiple full-stack applications
++ Implemented secure authentication systems
++ Developed CLI tools for security workflows
++ Focused on performance and clean architecture
 ```
 
 <div align="center">
 
 <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahmer-kun&show_icons=true&hide_border=true&bg_color=000000&title_color=00fff2&icon_color=00fff2&text_color=00ffaa" width="48%"/>
 <img src="https://streak-stats.demolab.com/?user=Ahmer-kun&hide_border=true&background=000000&ring=00fff2&currStreakLabel=00ffaa&currStreakNum=00fff2" width="48%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmer-kun&bg_color=000000&color=00fff2&line=00ffaa&point=ff0055&area=true&hide_border=true" width="98%"/>
 
 </div>
 
@@ -129,7 +188,7 @@ tools:
 ## 📡 contact
 
 ```bash
-> initiate uplink
+> establish uplink
 ```
 
 <div align="center">
@@ -143,18 +202,18 @@ tools:
 ---
 
 ```bash
-> connection established...
+> ahmer.ai response:
 
 If you're building something real —
-or need a developer who understands both code and security:
+or need someone who understands both development and security:
 
-Let's talk.
+→ connection accepted.
 ```
 
 ---
 
 <div align="center">
 
-![](https://img.shields.io/badge/SYSTEM-INTERACTIVE_MODE_ACTIVE-00fff2?style=flat-square\&labelColor=000000)
+![](https://img.shields.io/badge/AI_STATUS-LEARNING_&_EVOLVING-00fff2?style=flat-square\&labelColor=000000)
 
 </div>
