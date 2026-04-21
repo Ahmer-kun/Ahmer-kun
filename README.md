@@ -14,7 +14,7 @@
 > status: ONLINE
 ```
 
-<h3 align="center">🧠 AHMER.AI — INTERACTIVE DEVELOPER INTERFACE</h3>
+<h3 align="center"> AHMER.AI — INTERACTIVE DEVELOPER INTERFACE</h3>
 
 <p align="center">
 Ask the system anything — or run a command:
