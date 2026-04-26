@@ -227,12 +227,12 @@ Real-time multi-room messaging application built on WebSocket architecture. Supp
 ╠══════════╦════════════════════════════════════════╦═══════════════╦══════════════╣
 ║  LEVEL   ║  CERTIFICATION                         ║  ISSUER       ║  STATUS      ║
 ╠══════════╬════════════════════════════════════════╬═══════════════╬══════════════╣
-║  ★ ★ ★ ★ ║  CC — Certified in Cybersecurity       ║  ISC²/Coursera║  ACTIVE      ║
-║  ★ ★ ★ ★ ║  Cybersecurity Analyst Professional    ║  IBM/Coursera ║  ACTIVE      ║
-║  ★ ★ ★ ★ ║  Full Stack JavaScript Developer       ║  IBM/Coursera ║  ACTIVE      ║
-║  ★ ★ ★ ★ ║  IT Support Specialist                 ║  Google       ║  ACTIVE      ║
+║  ★ ★ ★ ★ ║  CC — Certified in Cybersecurity     ║  ISC²/Coursera║  ACTIVE      ║
+║  ★ ★ ★ ★ ║  Cybersecurity Analyst Professional  ║  IBM/Coursera ║  ACTIVE      ║
+║  ★ ★ ★ ★ ║  Full Stack JavaScript Developer     ║  IBM/Coursera ║  ACTIVE      ║
+║  ★ ★ ★ ★ ║  IT Support Specialist               ║  Google       ║  ACTIVE      ║
 ╠══════════╩════════════════════════════════════════╩═══════════════╩══════════════╣
-║  TOTAL : 4 active clearances ─────────────────────── AUTHORITY : CONFIRMED       ║
+║  TOTAL : 4 active clearances ─────────────────────── AUTHORITY    : CONFIRMED    ║
 ╚══════════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -367,7 +367,7 @@ const MISSION = {
 
 <br/>
 
-![](https://img.shields.io/badge/MADE_WITH-❤️_&_TOO_MUCH_COFFEE-00fff2?style=flat-square&labelColor=0a0a0f)
+![](https://img.shields.io/badge/MADE_WITH-?_&_TOO_MUCH_TEA-00fff2?style=flat-square&labelColor=0a0a0f)
 &nbsp;
 ![](https://img.shields.io/badge/POWERED_BY-GITHUB_&_AMBITION-00fff2?style=flat-square&labelColor=0a0a0f)
 &nbsp;
