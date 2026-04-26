@@ -367,7 +367,7 @@ const MISSION = {
 
 <br/>
 
-![](https://img.shields.io/badge/MADE_WITH-?_&_TOO_MUCH_TEA-00fff2?style=flat-square&labelColor=0a0a0f)
+![](https://img.shields.io/badge/MADE_WITH-%E2%9D%A4%EF%B8%8F_&_TOO_MUCH_COFFEE-00fff2?style=flat-square&labelColor=0a0a0f)
 &nbsp;
 ![](https://img.shields.io/badge/POWERED_BY-GITHUB_&_AMBITION-00fff2?style=flat-square&labelColor=0a0a0f)
 &nbsp;
