@@ -378,4 +378,5 @@ const MISSION = {
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:0a0a0f,100:0d1f2d&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 
+
 </div>
