@@ -93,7 +93,7 @@ const STACK = {
 <table>
 <tr>
 <td valign="top" width="20%">
-
+ 
 **`⬡ FRONTEND`**
 
 ![React](https://img.shields.io/badge/React-0a0a0f?logo=react&logoColor=00fff2&style=flat-square)
