@@ -74,7 +74,7 @@ const STACK = {
     framework  : "Express.js",
     database   : "MongoDB",
     protocols  : [ "REST APIs", "WebSockets", "JWT Authentication" ],
-    cloud      : [ "AWS (learning)", "Vercel", "Netlify" ],
+    cloud      : [ "Vercel", "Netlify" ],
   },
 
   security_it : {                          //  secondary module
@@ -263,7 +263,6 @@ const MISSION = {
     "◈  Advanced React patterns — hooks, context, performance",
     "◈  Backend system design & microservices architecture",
     "◈  Machine learning fundamentals",
-    "◈  AWS cloud & infrastructure basics",
     "◈  Advanced penetration testing  ( CTF challenges )",
   ],
 
@@ -359,7 +358,7 @@ const MISSION = {
 ║   ◈  if you are building something real — let's talk.      ║
 ║   ◈  open to full stack roles, collabs & freelance.        ║
 ║                                                            ║
-║   ◈  السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ               ║
+║   ◈  السلام عليكم ورحمة الله وبركاته                      ║
 ║                                                            ║
 ║   ◈  EOF  █                                                ║
 ║                                                            ║
@@ -373,6 +372,10 @@ const MISSION = {
 ![](https://img.shields.io/badge/POWERED_BY-GITHUB_&_AMBITION-00fff2?style=flat-square&labelColor=0a0a0f)
 &nbsp;
 ![](https://img.shields.io/badge/STATUS-ALWAYS_IMPROVING-ff2d6b?style=flat-square&labelColor=0a0a0f)
+
+<br/>
+
+![](https://komarev.com/ghpvc/?username=Ahmer-kun&color=00fff2&style=flat-square&label=PROFILE+VIEWS&labelColor=0a0a0f)
 
 <br/>
 
