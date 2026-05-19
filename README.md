@@ -1,5 +1,4 @@
 
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:0a0a0f,100:0d1f2d&height=280&section=header&text=AHMER%20AMIR&fontSize=78&fontColor=00fff2&fontAlignY=42&fontAlign=50&desc=◈%20FULL%20STACK%20DEVELOPER%20%20·%20%20CYBERSECURITY%20ENTHUSIAST%20%20·%20%20CS%20UNDERGRADUATE%20◈&descSize=12&descAlignY=64&descColor=0077aa&animation=fadeIn&stroke=00fff2&strokeWidth=0" width="100%"/>
