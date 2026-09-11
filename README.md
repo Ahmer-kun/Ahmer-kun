@@ -17,7 +17,7 @@ with modern JavaScript technologies and clean backend architecture.
   <img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
-<a href="https://ahmer-kun.github.io/myportfolio/">
+<a href="https://a-square-dev.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=firefoxbrowser&logoColor=white" />
 </a>
 
@@ -370,7 +370,7 @@ If you're working on a real product, an interesting technical project, an open-s
 <img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
-<a href="https://ahmer-kun.github.io/myportfolio/">
+<a href="https://a-square-dev.vercel.app/">
 <img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=firefoxbrowser&logoColor=white" />
 </a>
 
