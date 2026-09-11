@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=AHMER%20AMIR&fontSize=70&fontColor=00fff2&fontAlignY=38&animation=twinkling&desc=Full%20Stack%20Developer%20·%20Cybersecurity%20Enthusiast%20·%20CS%20Undergraduate&descAlignY=58&descSize=16&descColor=b98cff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=AHMER%20AMIR&fontSize=70&fontColor=00fff2&fontAlignY=38&animation=twinkling&desc=Full%20Stack%20Developer%20·%20Cybersecurity%20Enthusiast%20·%20Computer%20Science%20Graduate&descAlignY=58&descSize=15&descColor=b98cff"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=2500&pause=600&color=00FFF2&center=true&vCenter=true&width=650&lines=const+dev+%3D+new+FullStackDeveloper();;dev.stack+%3D+%5B'React'%2C+'Node.js'%2C+'MongoDB'%5D;dev.interests.push('cybersecurity'%2C+'CTFs');dev.status+%3D+'open+to+work';console.log('lets+build+something.');"/>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=2500&pause=600&color=00FFF2&center=true&vCenter=true&width=700&lines=const+dev+%3D+new+FullStackDeveloper();;dev.education+%3D+'BS+Computer+Science%2C+2026+Graduate';;dev.stack+%3D+%5B'React'%2C+'Node.js'%2C+'MongoDB'%5D;;dev.interests.push('cybersecurity'%2C+'CTFs');;dev.status+%3D+'open+to+work';;console.log('lets+build+something.');"/>
 
-<br/><br/>
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-ahmer-b88485283)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ahmer-kun)
@@ -14,27 +14,34 @@
 
 <img src="https://komarev.com/ghpvc/?username=Ahmer-kun&color=8a2be2&style=for-the-badge&label=PROFILE+VIEWS"/>
 
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00fff2,100:8a2be2&height=2&width=1000"/>
+
 </div>
 
 <br/>
 
-## 👋 About Me
+## About Me
 
-I build full-stack web apps with the MERN stack — clean architecture, solid auth, and APIs that don't fall over in production. On the side, I go deep into cybersecurity: network recon, web app pentesting, and IT support.
+I build full-stack web applications with the MERN stack — clean architecture, solid authentication, and APIs designed to hold up in production. Alongside that, I work in cybersecurity: network reconnaissance, web application pentesting, and IT support.
 
-CS undergraduate based in Karachi, Pakistan 🇵🇰 — currently open to full-stack roles, freelance work, and collabs.
+Computer Science graduate based in Karachi, Pakistan. Currently open to full-stack developer roles, freelance work, and collaborations.
 
 ```yaml
+name: Ahmer Amir
 role: Full Stack Developer
+education: BS Computer Science — Graduate, 2026
 focus: React · Node.js · Express · MongoDB
-side_quest: Cybersecurity & IT Support
-certs: ISC² CC · IBM Cybersecurity · IBM Full Stack · Google IT
+side_focus: Cybersecurity & IT Support
+certifications: ISC² CC · IBM Cybersecurity · IBM Full Stack · Google IT
+location: Karachi, Pakistan
 status: open to opportunities
 ```
 
 <br/>
 
-## 🛠️ Tech Arsenal
+## Tech Arsenal
 
 <div align="center">
 
@@ -64,7 +71,7 @@ status: open to opportunities
 
 <br/>
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <div align="center">
 
@@ -86,14 +93,14 @@ status: open to opportunities
 
 | Project | Stack | Highlights |
 |---|---|---|
-| 🌐 [**Portfolio Prime**](https://github.com/Ahmer-kun/myportfolio) | HTML · CSS · JS | No-framework animated portfolio, mobile-first · [live demo](https://ahmer-kun.github.io/myportfolio/) |
-| 🛒 [**Commerce Nexus**](https://github.com/Ahmer-kun/commerce-nexus) | React · Node · Express · MongoDB | JWT auth, cart system, REST API, protected routes |
-| 🔍 [**Ghost Scanner**](https://github.com/Ahmer-kun/ghost-scanner) `security` | Python · Nmap · Bash | CLI recon tool, auto HTML reports, CTF-focused |
-| 💬 [**Signal**](https://github.com/Ahmer-kun/signal-chat) | Node.js · Socket.io | Real-time multi-room chat, live presence |
+| [**Portfolio Prime**](https://github.com/Ahmer-kun/myportfolio) | HTML · CSS · JavaScript | No-framework animated portfolio, mobile-first · [live demo](https://ahmer-kun.github.io/myportfolio/) |
+| [**Commerce Nexus**](https://github.com/Ahmer-kun/commerce-nexus) | React · Node.js · Express · MongoDB | JWT auth, cart system, REST API, protected routes |
+| [**Ghost Scanner**](https://github.com/Ahmer-kun/ghost-scanner) `security` | Python · Nmap · Bash | CLI recon tool, automated HTML reports, CTF-focused |
+| [**Signal — Chat Protocol**](https://github.com/Ahmer-kun/signal-chat) | Node.js · Socket.io · Express | Real-time multi-room chat, live presence, concurrent connections |
 
 <br/>
 
-## 🎖️ Certifications
+## Certifications
 
 <div align="center">
 
@@ -106,7 +113,23 @@ status: open to opportunities
 
 <br/>
 
-## 📊 GitHub Analytics
+## Experience Timeline
+
+```text
+2026 ─┬─ Graduated — BS Computer Science
+      │
+      ├─ Built Commerce Nexus — full-stack MERN e-commerce platform
+      │
+      ├─ Built Ghost Scanner — CLI network recon tool
+      │
+      ├─ Earned ISC² Certified in Cybersecurity
+      │
+      └─ Actively seeking Full Stack Developer roles
+```
+
+<br/>
+
+## GitHub Analytics
 
 <div align="center">
 
@@ -133,17 +156,68 @@ status: open to opportunities
 </div>
 <!--END_SECTION:snake-->
 
-<sub>↳ the animated snake above needs the [Platane/snk](https://github.com/Platane/snk) GitHub Action added to this repo — setup note below.</sub>
+<sub>The animated snake above needs the Platane/snk GitHub Action added to this repo. Setup note below.</sub>
 
 <br/>
 
-## 🎯 2026 Roadmap
+## Current Focus
 
-- 🔐 Ship secure, scalable full-stack apps with clean architecture
-- ⚙️ Master advanced React patterns — hooks, context, performance
-- 🧠 Study backend system design & microservices
-- 🕵️ Go deeper on offensive security through CTFs
-- 🤝 Open to: full-stack roles · freelance · IT support · security work · OSS contributions
+```js
+const focus2026 = {
+  building: [
+    "Secure, scalable full-stack apps with clean architecture",
+    "Real-world MERN stack projects for a professional portfolio",
+    "REST API design — auth, validation, error handling done right",
+  ],
+  learning: [
+    "Advanced React patterns: hooks, context, performance",
+    "Backend system design and microservices architecture",
+    "Deeper penetration testing through CTF challenges",
+  ],
+  openTo: [
+    "Full Stack Developer roles",
+    "Freelance and contract work",
+    "IT support positions",
+    "Cybersecurity opportunities",
+    "Open source contributions",
+  ],
+};
+```
+
+<br/>
+
+## Snake Action Setup
+
+To make the contribution snake animate for real, add this workflow to `.github/workflows/snake.yml` in your `Ahmer-kun/Ahmer-kun` repository:
+
+```yaml
+name: Generate Snake Animation
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: Ahmer-kun
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
 
 <br/>
 
@@ -151,7 +225,7 @@ status: open to opportunities
 
 <div align="center">
 
-**If you're building something real — let's talk.**
+**If you are building something real, let's talk.**
 
 السلام عليكم ورحمة الله وبركاته
 
