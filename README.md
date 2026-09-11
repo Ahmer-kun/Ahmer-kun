@@ -6,7 +6,7 @@
 
 ### Full Stack Developer · Cybersecurity Enthusiast
 
-I build practical, secure, and production-focused web applications
+I build practical, secure, and production-focused web applications  
 with modern JavaScript technologies and clean backend architecture.
 
 <br/>
@@ -31,23 +31,21 @@ with modern JavaScript technologies and clean backend architecture.
 
 ---
 
-## About
+## About Me
 
-I'm **Ahmer Amir**, a Computer Science graduate focused on full-stack web development, backend engineering, and application security.
+I'm a **Computer Science graduate** focused on building reliable software and understanding how systems work beneath the surface.
 
-I enjoy taking an idea from a blank repository to a working application — designing the architecture, building the frontend, developing APIs, handling authentication and data, and getting the application deployed.
+My interests sit at the intersection of:
 
-My main focus is **building software that is useful, maintainable, and secure**, rather than simply building projects for the sake of having projects.
+- Full-stack web development
+- Backend architecture and APIs
+- Application security
+- Networking and infrastructure
+- Cybersecurity
+- Developer tooling
+- Production-oriented engineering
 
-```text
-Focus
-├── Full Stack Web Development
-├── Backend & REST API Development
-├── Authentication & Application Security
-├── Database Design
-├── Real-time Applications
-└── Security & Networking
-```
+I enjoy taking an idea from **architecture → implementation → deployment**, while keeping security, maintainability, and real-world usability in mind.
 
 ---
 
@@ -56,246 +54,229 @@ Focus
 ### Frontend
 
 <p>
-<img src="https://skillicons.dev/icons?i=html,css,js,react,redux,tailwind,sass,bootstrap,vite" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-18181B?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
 </p>
 
-**JavaScript · React · Redux · HTML5 · CSS3 · Tailwind CSS · Sass · Bootstrap · Vite**
-
-### Backend & Database
+### Backend & Databases
 
 <p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,prisma,nestjs" />
+  <img src="https://img.shields.io/badge/Node.js-18181B?style=for-the-badge&logo=node.js&logoColor=6DA55F" />
+  <img src="https://img.shields.io/badge/Express.js-18181B?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST_APIs-18181B?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSockets-18181B?style=for-the-badge&logo=socket.io&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-18181B?style=for-the-badge&logo=prisma&logoColor=white" />
 </p>
-
-**Node.js · Express.js · NestJS · MongoDB · PostgreSQL · Prisma · REST APIs · WebSockets**
 
 ### Languages & Scripting
 
 <p>
-<img src="https://skillicons.dev/icons?i=js,ts,python,bash,powershell" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-18181B?style=for-the-badge&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
 </p>
-
-**JavaScript · TypeScript · Python · Bash · PowerShell**
 
 ### Security & Networking
 
 <p>
-<img src="https://skillicons.dev/icons?i=linux,kali" />
+  <img src="https://img.shields.io/badge/Linux-18181B?style=for-the-badge&logo=linux&logoColor=FCC624" />
+  <img src="https://img.shields.io/badge/Kali_Linux-18181B?style=for-the-badge&logo=kalilinux&logoColor=557C94" />
+  <img src="https://img.shields.io/badge/Nmap-18181B?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Burp_Suite-18181B?style=for-the-badge&logo=burpsuite&logoColor=FF6633" />
+  <img src="https://img.shields.io/badge/Metasploit-18181B?style=for-the-badge&logo=metasploit&logoColor=white" />
 </p>
-
-**Kali Linux · Nmap · Wireshark · Burp Suite · Metasploit · Network Security · Web Application Security · OSINT**
 
 ### Tools & Platforms
 
 <p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,vercel,netlify,figma" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-18181B?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Netlify-18181B?style=for-the-badge&logo=netlify&logoColor=00C7B7" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
 </p>
-
-**Git · GitHub · VS Code · Docker · Vercel · Netlify · Figma**
 
 ---
 
 ## Featured Projects
 
-A selection of projects that represent the kind of software I like building.
+### VidDown
 
-### 01 · VidDown
+**Production-oriented video downloading platform**
 
-**Production-oriented video downloader**
-
-A full-stack media downloading application designed around a clean frontend/backend architecture.
+A full-stack application designed around a clean URL → format → download workflow.
 
 **Stack**
 
-`Next.js` `TypeScript` `Tailwind CSS` `Node.js` `Express` `yt-dlp` `FFmpeg` `Docker`
+`Next.js` · `TypeScript` · `Tailwind CSS` · `Node.js` · `Express` · `yt-dlp` · `FFmpeg` · `Docker`
 
 **Highlights**
 
-* URL-based media processing
-* Multiple media formats and quality options
-* Separate frontend and backend architecture
-* FFmpeg media processing
-* Docker-based deployment setup
-* Production deployment configuration
-
-[View Repository](https://github.com/Ahmer-kun)
+- Multi-platform media URL handling
+- MP4 / MP3 output
+- Quality and format selection
+- Dedicated frontend and backend architecture
+- FFmpeg-based media processing
+- Dockerized deployment environment
+- Nginx configuration
+- Production deployment documentation
 
 ---
 
-### 02 · Caelix VPN
+### Caelix VPN
 
 **Secure VPN control-plane platform**
 
-A security-focused application exploring how a modern VPN management platform can be structured around authentication, authorization, devices, users, VPN nodes, and auditable control-plane APIs.
+A backend-focused project exploring authentication, device management, VPN infrastructure, RBAC, and secure control-plane architecture.
 
 **Stack**
 
-`TypeScript` `NestJS` `PostgreSQL` `Prisma` `REST API` `Docker`
+`TypeScript` · `NestJS` · `PostgreSQL` · `Prisma` · `REST API` · `Docker`
 
 **Highlights**
 
-* Secure authentication foundation
-* Session management
-* Role-based access control
-* Device and user management
-* VPN node and peer views
-* API versioning
-* OpenAPI documentation
-* Audit-oriented architecture
-
-[View Repository](https://github.com/Ahmer-kun)
+- Secure account and session architecture
+- Role-based access control
+- Device management
+- VPN node and peer management foundation
+- Versioned API architecture
+- Audit-oriented design
+- OpenAPI documentation
+- Security-first development approach
 
 ---
 
-### 03 · Commerce Nexus
+### Commerce Nexus
 
-**Full-stack e-commerce platform**
+**Full-stack e-commerce application**
 
-A MERN-based commerce application covering the core flow from products and authentication to cart management and protected API operations.
+A MERN-based commerce platform focused on practical frontend and backend integration.
 
 **Stack**
 
-`React` `Node.js` `Express` `MongoDB` `JWT`
+`MongoDB` · `Express.js` · `React` · `Node.js`
 
-**Highlights**
+**Focus**
 
-* User authentication
-* Protected routes
-* Product management
-* Shopping cart
-* REST API
-* MongoDB integration
-* Client/server separation
-
-[View Repository](https://github.com/Ahmer-kun/commerce-nexus)
+- Product management
+- API-driven architecture
+- Authentication
+- Shopping workflows
+- Responsive frontend
+- Full-stack application structure
 
 ---
 
-### 04 · Ghost Scanner
+### Ghost Scanner
 
-**Network reconnaissance CLI**
+**Network reconnaissance utility**
 
-A Python-based reconnaissance tool designed for controlled labs, CTF environments, and ethical security testing.
+A security-focused project built around network discovery and reconnaissance workflows.
 
 **Stack**
 
-`Python` `Nmap` `Bash`
+`Python` · `Bash` · `Nmap`
 
-**Highlights**
+**Focus**
 
-* Host discovery
-* Port scanning
-* Reconnaissance automation
-* Structured results
-* HTML report generation
-* CLI-based workflow
-
-> Built for authorized security testing and controlled environments.
-
-[View Repository](https://github.com/Ahmer-kun/ghost-scanner)
+- Network discovery
+- Port scanning
+- Reconnaissance automation
+- Command-line workflows
+- Security experimentation
 
 ---
 
-### 05 · Signal
+### Signal
 
-**Real-time chat application**
+**Real-time communication application**
 
-A multi-room messaging application built around WebSocket communication and real-time user presence.
+A real-time chat application exploring event-driven communication and backend connectivity.
 
 **Stack**
 
-`Node.js` `Express` `Socket.io`
+`Node.js` · `Express.js` · `Socket.io` · `JavaScript`
 
-**Highlights**
+**Focus**
 
-* Real-time messaging
-* Multiple rooms
-* User presence
-* Concurrent connections
-* Instant message delivery
-* Minimal client interface
-
-[View Repository](https://github.com/Ahmer-kun/signal-chat)
+- Real-time messaging
+- WebSocket communication
+- Event-driven architecture
+- Backend API integration
 
 ---
 
-### 06 · Portfolio Prime
+### Portfolio Prime
 
-**Personal developer portfolio**
+**Personal portfolio platform**
 
-A framework-free portfolio focused on responsive design, custom animations, and a lightweight frontend implementation.
+A responsive portfolio website built without relying on heavy frameworks.
 
 **Stack**
 
-`HTML` `CSS` `JavaScript`
+`HTML5` · `CSS3` · `JavaScript`
 
-**Highlights**
+**Focus**
 
-* Responsive design
-* Mobile-first layout
-* Custom CSS animations
-* Project showcase
-* Lightweight implementation
-* No frontend framework
-
-[View Repository](https://github.com/Ahmer-kun/myportfolio) · [Live Site](https://ahmer-kun.github.io/myportfolio/)
+- Responsive design
+- Clean UI
+- Interactive frontend components
+- Performance-conscious implementation
 
 ---
 
 ## Certifications
 
-| Certification                                  | Issuer |
-| ---------------------------------------------- | ------ |
-| Certified in Cybersecurity (CC)                | ISC²   |
-| Cybersecurity Analyst Professional Certificate | IBM    |
-| Full Stack JavaScript Developer                | IBM    |
-| IT Support Professional Certificate            | Google |
+| Certification | Organization |
+|---|---|
+| Certified in Cybersecurity (CC) | ISC² |
+| Cybersecurity Analyst | IBM |
+| Full Stack JavaScript Developer | IBM |
+| Google IT Support | Google |
 
 ---
 
-## What I'm Currently Building
+## Currently Building
 
-I'm particularly interested in projects where **software engineering and security overlap**.
+I'm currently interested in projects that combine **software engineering, security, infrastructure, and automation**.
 
-```text
-Building
-→ Production-grade full-stack applications
-→ Secure authentication systems
-→ RESTful backend architectures
-→ Real-time applications
-→ Security-focused developer tools
-→ Scalable application foundations
+Areas I'm actively exploring:
 
-Learning
-→ Advanced React & TypeScript
-→ Backend architecture
-→ System design
-→ Database design
-→ Application security
-→ Penetration testing
-→ Machine learning fundamentals
-```
+- Secure authentication systems
+- Backend architecture
+- VPN infrastructure
+- Network security
+- Application security
+- Production deployment
+- Distributed systems
+- Developer tooling
+- AI-assisted software engineering
 
 ---
 
 ## Engineering Principles
 
-I try to keep a few principles consistent across my projects:
-
-**Build for real use.**
-A project should solve a problem, not just demonstrate a technology.
-
-**Keep the architecture understandable.**
-Complexity should have a reason.
-
-**Security is part of development.**
-Authentication, authorization, validation, error handling, and safe data handling should not be afterthoughts.
-
-**Learn by building.**
-Documentation and tutorials are useful, but building the system is where the understanding becomes real.
-
-**Ship, then improve.**
-The first version does not need to be perfect. It needs to work well enough to be tested, measured, and improved.
+```text
+Build for real users.
+Understand the system beneath the abstraction.
+Treat security as part of the architecture.
+Prefer simple systems over unnecessary complexity.
+Write software that can be maintained.
+Ship, test, learn, improve.
+```
 
 ---
 
@@ -345,16 +326,16 @@ The first version does not need to be perfect. It needs to work well enough to b
 
 ## Beyond the Code
 
-```text
-Location       Karachi, Pakistan 🇵🇰
-Primary Focus  Full Stack Development
-Secondary      Cybersecurity / IT
-Editor         VS Code
-Environment    Linux / Windows
-Interests      Software · Security · Systems
-```
+When I'm not building software, I enjoy exploring:
 
-I like working on things that force me to understand **how the entire system works**, not just one layer of it.
+* Cybersecurity and offensive security concepts
+* Networking and infrastructure
+* New technologies and developer tools
+* System architecture
+* Open-source projects
+* Technical problem solving
+
+I believe the best way to learn technology is to **build with it, break it, understand it, and build it better.**
 
 ---
 
@@ -365,30 +346,25 @@ If you're working on a real product, an interesting technical project, an open-s
 <div align="center">
 
 <a href="https://github.com/Ahmer-kun">
-<img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/muhammad-ahmer-b88485283">
-<img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
 <a href="https://a-square-dev.vercel.app/">
-<img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=firefoxbrowser&logoColor=white" />
+  <img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=firefoxbrowser&logoColor=white" />
 </a>
 
 <br/><br/>
-
-<div align="center">
-
-> *“We are what we repeatedly do.”*
->
-> — Will Durant
-
-<br/>
 
 **Build useful things. Understand how they work. Keep making them better.**
 
 </div>
 
+---
 
-</div>
+> *Per aspera ad astra.*
+>
+> **Through hardships to the stars.**
