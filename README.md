@@ -1,5 +1,7 @@
 <div align="center">
 
+### السلام عليكم ورحمة الله وبركاته
+
 # AHMER AMIR
 
 ### Full Stack Developer · Cybersecurity Enthusiast
@@ -376,10 +378,16 @@ If you're working on a real product, an interesting technical project, an open-s
 
 <br/><br/>
 
-**Build useful things. Understand how they work. Keep making them better.**
+<div align="center">
+
+> *“We are what we repeatedly do.”*
+>
+> — Will Durant
 
 <br/>
 
-`السلام عليكم ورحمة الله وبركاته`
+**Build useful things. Understand how they work. Keep making them better.**
+
+</div>
 
 </div>
