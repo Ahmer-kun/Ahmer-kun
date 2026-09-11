@@ -301,15 +301,43 @@ The first version does not need to be perfect. It needs to work well enough to b
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ahmer-kun&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" width="49%" />
-
-<img src="https://streak-stats.demolab.com/?user=Ahmer-kun&hide_border=true&theme=transparent" width="49%" />
+<a href="https://github.com/Ahmer-kun">
+  <img
+    src="https://streak-stats.demolab.com/?user=Ahmer-kun&hide_border=true&background=00000000&ring=0969DA&fire=0969DA&currStreakLabel=0969DA&sideLabels=57606A&dates=57606A&sideNums=24292F&currStreakNum=24292F&stroke=57606A"
+    width="70%"
+  />
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmer-kun&layout=compact&hide_border=true&theme=transparent&langs_count=10" width="45%" />
+<a href="https://github.com/Ahmer-kun">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ahmer-kun&theme=github_dark"
+    width="95%"
+  />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/Ahmer-kun">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ahmer-kun&theme=github_dark"
+    width="46%"
+  />
+</a>
+
+<a href="https://github.com/Ahmer-kun">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Ahmer-kun&theme=github_dark"
+    width="46%"
+  />
+</a>
 
 </div>
+
+<br/>
+
+> My GitHub activity reflects what I'm currently learning, building, and experimenting with.
 
 ---
 
