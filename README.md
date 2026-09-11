@@ -1,234 +1,357 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=AHMER%20AMIR&fontSize=70&fontColor=00fff2&fontAlignY=38&animation=twinkling&desc=Full%20Stack%20Developer%20·%20Cybersecurity%20Enthusiast%20·%20Computer%20Science%20Graduate&descAlignY=58&descSize=15&descColor=b98cff"/>
+# AHMER AMIR
+
+### Full Stack Developer · Cybersecurity Enthusiast
+
+I build practical, secure, and production-focused web applications
+with modern JavaScript technologies and clean backend architecture.
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=2500&pause=600&color=00FFF2&center=true&vCenter=true&width=700&lines=const+dev+%3D+new+FullStackDeveloper();;dev.education+%3D+'BS+Computer+Science%2C+2026+Graduate';;dev.stack+%3D+%5B'React'%2C+'Node.js'%2C+'MongoDB'%5D;;dev.interests.push('cybersecurity'%2C+'CTFs');;dev.status+%3D+'open+to+work';;console.log('lets+build+something.');"/>
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-ahmer-b88485283)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ahmer-kun)
-[![Portfolio](https://img.shields.io/badge/Portfolio-6d28d9?style=for-the-badge&logo=vercel&logoColor=white)](https://ahmer-kun.github.io/myportfolio/)
-
-<img src="https://komarev.com/ghpvc/?username=Ahmer-kun&color=8a2be2&style=for-the-badge&label=PROFILE+VIEWS"/>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00fff2,100:8a2be2&height=2&width=1000"/>
-
-</div>
-
-<br/>
-
-## About Me
-
-I build full-stack web applications with the MERN stack — clean architecture, solid authentication, and APIs designed to hold up in production. Alongside that, I work in cybersecurity: network reconnaissance, web application pentesting, and IT support.
-
-Computer Science graduate based in Karachi, Pakistan. Currently open to full-stack developer roles, freelance work, and collaborations.
-
-```yaml
-name: Ahmer Amir
-role: Full Stack Developer
-education: BS Computer Science — Graduate, 2026
-focus: React · Node.js · Express · MongoDB
-side_focus: Cybersecurity & IT Support
-certifications: ISC² CC · IBM Cybersecurity · IBM Full Stack · Google IT
-location: Karachi, Pakistan
-status: open to opportunities
-```
-
-<br/>
-
-## Tech Arsenal
-
-<div align="center">
-
-**Frontend**
-<br/>
-<img src="https://skillicons.dev/icons?i=js,react,redux,tailwind,sass,html,css&theme=dark"/>
-
-<br/><br/>
-
-**Backend**
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark"/>
-
-<br/><br/>
-
-**Security & IT**
-<br/>
-<img src="https://skillicons.dev/icons?i=kali,linux,wireshark&theme=dark"/>
-
-<br/><br/>
-
-**Scripting & Tools**
-<br/>
-<img src="https://skillicons.dev/icons?i=python,bash,powershell,git,github,vscode,solidity&theme=dark"/>
-
-</div>
-
-<br/>
-
-## Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/Ahmer-kun/myportfolio">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ahmer-kun&repo=myportfolio&theme=radical&hide_border=true"/>
+<a href="https://github.com/Ahmer-kun">
+  <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="https://github.com/Ahmer-kun/commerce-nexus">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ahmer-kun&repo=commerce-nexus&theme=radical&hide_border=true"/>
+&nbsp;
+<a href="https://www.linkedin.com/in/muhammad-ahmer-b88485283">
+  <img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<br/>
-<a href="https://github.com/Ahmer-kun/ghost-scanner">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ahmer-kun&repo=ghost-scanner&theme=radical&hide_border=true"/>
-</a>
-<a href="https://github.com/Ahmer-kun/signal-chat">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Ahmer-kun&repo=signal-chat&theme=radical&hide_border=true"/>
+&nbsp;
+<a href="https://ahmer-kun.github.io/myportfolio/">
+  <img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=firefoxbrowser&logoColor=white" />
 </a>
 
-</div>
-
-| Project | Stack | Highlights |
-|---|---|---|
-| [**Portfolio Prime**](https://github.com/Ahmer-kun/myportfolio) | HTML · CSS · JavaScript | No-framework animated portfolio, mobile-first · [live demo](https://ahmer-kun.github.io/myportfolio/) |
-| [**Commerce Nexus**](https://github.com/Ahmer-kun/commerce-nexus) | React · Node.js · Express · MongoDB | JWT auth, cart system, REST API, protected routes |
-| [**Ghost Scanner**](https://github.com/Ahmer-kun/ghost-scanner) `security` | Python · Nmap · Bash | CLI recon tool, automated HTML reports, CTF-focused |
-| [**Signal — Chat Protocol**](https://github.com/Ahmer-kun/signal-chat) | Node.js · Socket.io · Express | Real-time multi-room chat, live presence, concurrent connections |
-
-<br/>
-
-## Certifications
-
-<div align="center">
-
-![CC](https://img.shields.io/badge/ISC²-Certified_in_Cybersecurity-00fff2?style=for-the-badge&logo=isc2&logoColor=white&labelColor=1a1a2e)
-![IBM Cyber](https://img.shields.io/badge/IBM-Cybersecurity_Analyst-1f70c1?style=for-the-badge&logo=ibm&logoColor=white&labelColor=1a1a2e)
-![IBM FS](https://img.shields.io/badge/IBM-Full_Stack_JavaScript-1f70c1?style=for-the-badge&logo=ibm&logoColor=white&labelColor=1a1a2e)
-![Google IT](https://img.shields.io/badge/Google-IT_Support-4285F4?style=for-the-badge&logo=google&logoColor=white&labelColor=1a1a2e)
-
-</div>
-
-<br/>
-
-## Experience Timeline
-
-```text
-2026 ─┬─ Graduated — BS Computer Science
-      │
-      ├─ Built Commerce Nexus — full-stack MERN e-commerce platform
-      │
-      ├─ Built Ghost Scanner — CLI network recon tool
-      │
-      ├─ Earned ISC² Certified in Cybersecurity
-      │
-      └─ Actively seeking Full Stack Developer roles
-```
-
-<br/>
-
-## GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ahmer-kun&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" width="48%"/>
-<img src="https://streak-stats.demolab.com/?user=Ahmer-kun&theme=radical&hide_border=true" width="48%"/>
-
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ahmer-kun&layout=compact&theme=radical&hide_border=true&langs_count=10" width="45%"/>
-
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmer-kun&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Timeline" width="97%"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Ahmer-kun&theme=radical&no-frame=true&row=1&column=7"/>
+<img src="https://komarev.com/ghpvc/?username=Ahmer-kun&style=flat-square&color=18181B&label=PROFILE+VIEWS" />
 
 </div>
-
-<br/>
-
-<!--START_SECTION:snake-->
-<div align="center">
-<img src="https://raw.githubusercontent.com/Ahmer-kun/Ahmer-kun/output/github-contribution-grid-snake-dark.svg" width="97%"/>
-</div>
-<!--END_SECTION:snake-->
-
-<sub>The animated snake above needs the Platane/snk GitHub Action added to this repo. Setup note below.</sub>
-
-<br/>
-
-## Current Focus
-
-```js
-const focus2026 = {
-  building: [
-    "Secure, scalable full-stack apps with clean architecture",
-    "Real-world MERN stack projects for a professional portfolio",
-    "REST API design — auth, validation, error handling done right",
-  ],
-  learning: [
-    "Advanced React patterns: hooks, context, performance",
-    "Backend system design and microservices architecture",
-    "Deeper penetration testing through CTF challenges",
-  ],
-  openTo: [
-    "Full Stack Developer roles",
-    "Freelance and contract work",
-    "IT support positions",
-    "Cybersecurity opportunities",
-    "Open source contributions",
-  ],
-};
-```
-
-<br/>
-
-## Snake Action Setup
-
-To make the contribution snake animate for real, add this workflow to `.github/workflows/snake.yml` in your `Ahmer-kun/Ahmer-kun` repository:
-
-```yaml
-name: Generate Snake Animation
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        id: snake-gif
-        with:
-          github_user_name: Ahmer-kun
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-<br/>
 
 ---
 
+## About
+
+I'm **Ahmer Amir**, a Computer Science graduate focused on full-stack web development, backend engineering, and application security.
+
+I enjoy taking an idea from a blank repository to a working application — designing the architecture, building the frontend, developing APIs, handling authentication and data, and getting the application deployed.
+
+My main focus is **building software that is useful, maintainable, and secure**, rather than simply building projects for the sake of having projects.
+
+```text
+Focus
+├── Full Stack Web Development
+├── Backend & REST API Development
+├── Authentication & Application Security
+├── Database Design
+├── Real-time Applications
+└── Security & Networking
+```
+
+---
+
+## Tech Stack
+
+### Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,redux,tailwind,sass,bootstrap,vite" />
+</p>
+
+**JavaScript · React · Redux · HTML5 · CSS3 · Tailwind CSS · Sass · Bootstrap · Vite**
+
+### Backend & Database
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,prisma,nestjs" />
+</p>
+
+**Node.js · Express.js · NestJS · MongoDB · PostgreSQL · Prisma · REST APIs · WebSockets**
+
+### Languages & Scripting
+
+<p>
+<img src="https://skillicons.dev/icons?i=js,ts,python,bash,powershell" />
+</p>
+
+**JavaScript · TypeScript · Python · Bash · PowerShell**
+
+### Security & Networking
+
+<p>
+<img src="https://skillicons.dev/icons?i=linux,kali" />
+</p>
+
+**Kali Linux · Nmap · Wireshark · Burp Suite · Metasploit · Network Security · Web Application Security · OSINT**
+
+### Tools & Platforms
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,vercel,netlify,figma" />
+</p>
+
+**Git · GitHub · VS Code · Docker · Vercel · Netlify · Figma**
+
+---
+
+## Featured Projects
+
+A selection of projects that represent the kind of software I like building.
+
+### 01 · VidDown
+
+**Production-oriented video downloader**
+
+A full-stack media downloading application designed around a clean frontend/backend architecture.
+
+**Stack**
+
+`Next.js` `TypeScript` `Tailwind CSS` `Node.js` `Express` `yt-dlp` `FFmpeg` `Docker`
+
+**Highlights**
+
+* URL-based media processing
+* Multiple media formats and quality options
+* Separate frontend and backend architecture
+* FFmpeg media processing
+* Docker-based deployment setup
+* Production deployment configuration
+
+[View Repository](https://github.com/Ahmer-kun)
+
+---
+
+### 02 · Caelix VPN
+
+**Secure VPN control-plane platform**
+
+A security-focused application exploring how a modern VPN management platform can be structured around authentication, authorization, devices, users, VPN nodes, and auditable control-plane APIs.
+
+**Stack**
+
+`TypeScript` `NestJS` `PostgreSQL` `Prisma` `REST API` `Docker`
+
+**Highlights**
+
+* Secure authentication foundation
+* Session management
+* Role-based access control
+* Device and user management
+* VPN node and peer views
+* API versioning
+* OpenAPI documentation
+* Audit-oriented architecture
+
+[View Repository](https://github.com/Ahmer-kun)
+
+---
+
+### 03 · Commerce Nexus
+
+**Full-stack e-commerce platform**
+
+A MERN-based commerce application covering the core flow from products and authentication to cart management and protected API operations.
+
+**Stack**
+
+`React` `Node.js` `Express` `MongoDB` `JWT`
+
+**Highlights**
+
+* User authentication
+* Protected routes
+* Product management
+* Shopping cart
+* REST API
+* MongoDB integration
+* Client/server separation
+
+[View Repository](https://github.com/Ahmer-kun/commerce-nexus)
+
+---
+
+### 04 · Ghost Scanner
+
+**Network reconnaissance CLI**
+
+A Python-based reconnaissance tool designed for controlled labs, CTF environments, and ethical security testing.
+
+**Stack**
+
+`Python` `Nmap` `Bash`
+
+**Highlights**
+
+* Host discovery
+* Port scanning
+* Reconnaissance automation
+* Structured results
+* HTML report generation
+* CLI-based workflow
+
+> Built for authorized security testing and controlled environments.
+
+[View Repository](https://github.com/Ahmer-kun/ghost-scanner)
+
+---
+
+### 05 · Signal
+
+**Real-time chat application**
+
+A multi-room messaging application built around WebSocket communication and real-time user presence.
+
+**Stack**
+
+`Node.js` `Express` `Socket.io`
+
+**Highlights**
+
+* Real-time messaging
+* Multiple rooms
+* User presence
+* Concurrent connections
+* Instant message delivery
+* Minimal client interface
+
+[View Repository](https://github.com/Ahmer-kun/signal-chat)
+
+---
+
+### 06 · Portfolio Prime
+
+**Personal developer portfolio**
+
+A framework-free portfolio focused on responsive design, custom animations, and a lightweight frontend implementation.
+
+**Stack**
+
+`HTML` `CSS` `JavaScript`
+
+**Highlights**
+
+* Responsive design
+* Mobile-first layout
+* Custom CSS animations
+* Project showcase
+* Lightweight implementation
+* No frontend framework
+
+[View Repository](https://github.com/Ahmer-kun/myportfolio) · [Live Site](https://ahmer-kun.github.io/myportfolio/)
+
+---
+
+## Certifications
+
+| Certification                                  | Issuer |
+| ---------------------------------------------- | ------ |
+| Certified in Cybersecurity (CC)                | ISC²   |
+| Cybersecurity Analyst Professional Certificate | IBM    |
+| Full Stack JavaScript Developer                | IBM    |
+| IT Support Professional Certificate            | Google |
+
+---
+
+## What I'm Currently Building
+
+I'm particularly interested in projects where **software engineering and security overlap**.
+
+```text
+Building
+→ Production-grade full-stack applications
+→ Secure authentication systems
+→ RESTful backend architectures
+→ Real-time applications
+→ Security-focused developer tools
+→ Scalable application foundations
+
+Learning
+→ Advanced React & TypeScript
+→ Backend architecture
+→ System design
+→ Database design
+→ Application security
+→ Penetration testing
+→ Machine learning fundamentals
+```
+
+---
+
+## Engineering Principles
+
+I try to keep a few principles consistent across my projects:
+
+**Build for real use.**
+A project should solve a problem, not just demonstrate a technology.
+
+**Keep the architecture understandable.**
+Complexity should have a reason.
+
+**Security is part of development.**
+Authentication, authorization, validation, error handling, and safe data handling should not be afterthoughts.
+
+**Learn by building.**
+Documentation and tutorials are useful, but building the system is where the understanding becomes real.
+
+**Ship, then improve.**
+The first version does not need to be perfect. It needs to work well enough to be tested, measured, and improved.
+
+---
+
+## GitHub Activity
+
 <div align="center">
 
-**If you are building something real, let's talk.**
+<img src="https://github-readme-stats.vercel.app/api?username=Ahmer-kun&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" width="49%" />
 
-السلام عليكم ورحمة الله وبركاته
+<img src="https://streak-stats.demolab.com/?user=Ahmer-kun&hide_border=true&theme=transparent" width="49%" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmer-kun&layout=compact&hide_border=true&theme=transparent&langs_count=10" width="45%" />
+
+</div>
+
+---
+
+## Beyond the Code
+
+```text
+Location       Karachi, Pakistan 🇵🇰
+Primary Focus  Full Stack Development
+Secondary      Cybersecurity / IT
+Editor         VS Code
+Environment    Linux / Windows
+Interests      Software · Security · Systems
+```
+
+I like working on things that force me to understand **how the entire system works**, not just one layer of it.
+
+---
+
+## Let's Connect
+
+If you're working on a real product, an interesting technical project, an open-source idea, or a problem worth solving, feel free to reach out.
+
+<div align="center">
+
+<a href="https://github.com/Ahmer-kun">
+<img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/muhammad-ahmer-b88485283">
+<img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://ahmer-kun.github.io/myportfolio/">
+<img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=firefoxbrowser&logoColor=white" />
+</a>
+
+<br/><br/>
+
+**Build useful things. Understand how they work. Keep making them better.**
+
+<br/>
+
+`السلام عليكم ورحمة الله وبركاته`
 
 </div>
