@@ -367,4 +367,6 @@ If you're working on a real product, an interesting technical project, an open-s
 
 > *Per aspera ad astra.*
 >
-> **Through hardships to the stars.**
+<--!> **Through hardships to the stars.**-->
+> **七転び八起き**
+
