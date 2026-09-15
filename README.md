@@ -367,7 +367,7 @@ If you're working on a real product, an interesting technical project, an open-s
 
 > *Per aspera ad astra.*
 > 
-> *七転び八起き (Nana korobi ya oki)*
+> *七転び八起き*
 
 > <!-- Through hardships to the stars. Fall seven times, rise eight.
 > (Nana korobi ya oki)  -->
